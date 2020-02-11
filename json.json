@@ -1,0 +1,85 @@
+{
+  "conditions_course": [
+    [],
+    [
+      {
+        "leftoperator": "mainCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      },
+      {
+        "leftoperator": "experienceCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      },
+      {
+        "leftoperator": "specialCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      }
+    ],
+    [
+      {
+        "leftoperator": "mainCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      },
+      {
+        "leftoperator": "experienceCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      }
+    ],
+    [
+      {
+        "leftoperator": "mainCourse",
+        "predicate": "lt",
+        "rightoperator": 12
+      },
+      {
+        "leftoperator": "specialCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      }
+    ],
+    [
+      {
+        "leftoperator": "mainCourse",
+        "predicate": "eq",
+        "rightoperator": 0
+      }
+    ]
+  ],
+  "conditions_source": [
+    [
+      {
+        "leftoperator": "isNew",
+        "predicate": "eq",
+        "rightoperator": 1
+      }
+    ],
+    [
+      {
+        "leftoperator": "sameSource",
+        "predicate": "eq",
+        "rightoperator": 1
+      }
+    ],
+    [
+      {
+        "leftoperator": "otherSource",
+        "predicate": "lt",
+        "rightoperator": 24
+      }
+    ]
+  ],
+  "conditions_withdraw": [
+    [
+      {
+        "leftoperator": "hasWithdraw",
+        "predicate": "eq",
+        "rightoperator": 1
+      }
+    ]
+  ]
+}
