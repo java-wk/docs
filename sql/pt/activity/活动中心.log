@@ -1,0 +1,630 @@
+  http://www.putaoabc.com/
+  http://dev.putaoabc.net.cn/
+  http://test.putaoabc.net.cn/
+
+
+  http://www.putaoabc.com/course_v2/activityCenter/roundGroup/job2ForRoundGroup
+  http://dev.putaoabc.net.cn
+  http://test.putaoabc.net.cn
+
+
+
+
+
+  INFO 32308 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3be8821f: startup date [Thu Mar 26 15:27:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3212a8d7
+  WARN 32308 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+ "{[/course_v2/activityCenter/admission/checkAdmissionWithTip],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map<java.lang.Object, java.lang.Object>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityAdmissionController.checkAdmissionWithTip(java.lang.Integer,java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/admission/checkAdmission],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Boolean>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityAdmissionController.checkAdmission(java.lang.Integer,java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/groundPromote/genQrCode],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityGroundPromoteController.genQrCode(java.lang.String) throws java.io.UnsupportedEncodingException
+ "{[/course_v2/activityCenter/groundPromote/sendWxKefuMsg],methods=[POST]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityGroundPromoteController.readRaw(com.alibaba.fastjson.JSONObject)
+ "{[/course_v2/activityCenter/groundPromote/sendWxKefuMsg_decade],methods=[POST]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityGroundPromoteController.readRaw_decade(java.io.InputStream)
+ "{[/course_v2/activityCenter/jinxiao/startTime],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<java.lang.String>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getStartTime(java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/jinxiao/pay/permission],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getUserPayPermission(java.lang.String)
+ "{[/course_v2/activityCenter/jinxiao/teacherUrlV2],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.TeacherQrCodeDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getTeacherQrCodeV2(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/jinxiao/openCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.openCourse(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/jinxiao/openCourseV2],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.openCourseV2(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/jinxiao/startTimeV2],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<java.lang.String>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getStartTimeV2(java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/jinxiao/user],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.api.dto.ActivityJinxiaoUserDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getJinxiaoUser(java.lang.Integer)
+ "{[/course_v2/activityCenter/jinxiao/userStatus],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.isJinxiaoUser(java.lang.Integer)
+ "{[/course_v2/activityCenter/jinxiao/teacherUrl],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.TeacherQrCodeDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getTeacherQrCode(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/jinxiao/test1],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityJinxiaoController.getTest()
+ "{[/course_v2/activityCenter/longTerm/goods],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.order.api.dto.CoursePackageDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityLongTermController.getCousePackageWithPutaoId(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/longTerm/buyAuth],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityLongTermController.longTermBuyAuth(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/mini/auth]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.WxMiniAuthDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.userAuthorization(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/mini/status],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.getActivityStatus(java.lang.Integer)
+ "{[/course_v2/activityCenter/mini/phone],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.WxMiniUserDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.userPhone(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/mini/reg]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.userRegister(java.lang.String,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/mini/getAccecToken],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.getAccecToken()
+ "{[/course_v2/activityCenter/mini/openCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.OpenCourse(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/mini/dataUp],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniController.miniDataUp(java.lang.String,java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/miniGroupBuy/index],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.vo.GroupBuyingMiniVO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.getIndex(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/miniGroupBuy/setAddress],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Boolean>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.setAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/miniGroupBuy/createExpPdOrder],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.createMiniGroupBuyExpPdOrder(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/miniGroupBuy/judgeChangeExpUnitAdmission],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.judgeChangeExpUnitAdmission(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/miniGroupBuy/getTeacherQr],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.getTeacherQrCodeAndPdOrder(java.lang.Integer)
+ "{[/course_v2/activityCenter/miniGroupBuy/createExpPdOrderBackDoor],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.createExpPdOrderBackDoor(int[])
+ "{[/course_v2/activityCenter/miniGroupBuy/pay],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.pay(java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+ "{[/course_v2/activityCenter/miniGroupBuy/changeExpUnit],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.changeExpUnit(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/miniGroupBuy/getPdOrder],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.order.api.dto.PdOrderDTO>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMiniGroupBuyController.getPdOrder(java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/msg/sendCustomizedSMSTest],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.sendCustomizedSMSTest(java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/msg/sendWXTemplateMsgTest],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.sendWXTemplateMsgTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+ "{[/course_v2/activityCenter/msg/sendWXTemplateMsg],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.sendWXTemplateMsg(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+ "{[/course_v2/activityCenter/msg/sendSMSJob],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.sendSMSJob(com.alibaba.fastjson.JSONObject)
+ "{[/course_v2/activityCenter/msg/sendActiRemindSMS],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.sendEntinfoSMS(java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/msg/sendExpMini],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.sendExpMini(com.alibaba.fastjson.JSONObject)
+ "{[/course_v2/activityCenter/msg/remindToBuy],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityMsgController.remindToBuy(com.alibaba.fastjson.JSONObject)
+ "{[/course_v2/activityCenter/pay/aliPay],methods=[GET]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityPayController.aliH5Pay(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/pay/wxPay],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityPayController.wxH5Pay(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/price/getGoodsListByClassId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.order.api.dto.CoursePackageDTO>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityPriceController.getGoodsListByClassId(java.lang.Integer)
+ "{[/course_v2/activityCenter/returnMoney/index],methods=[GET]}"
+    onto public com.putaoabc.xxljob.api.common.BizResult<com.putaoabc.activitiescommonservice.dto.ActivityReturnMoneyDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityReturnMoneyController.getIndex(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/returnMoney/num],methods=[GET]}"
+    onto public com.putaoabc.xxljob.api.common.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityReturnMoneyController.getActivityReturnMoneyNum(java.lang.Integer)
+ "{[/course_v2/activityCenter/returnMoney/catalog],methods=[GET]}"
+    onto public com.putaoabc.xxljob.api.common.BizResult<com.putaoabc.activitiescommonservice.dto.ActivityReturnMoneyCatalogDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityReturnMoneyController.getCataLog(java.lang.Integer)
+ "{[/course_v2/activityCenter/tuition/index],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.SubstactTuitionDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySubstactTuitionController.getIndex(java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/tuition/share],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySubstactTuitionController.share(java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/tuition/appoint],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySubstactTuitionController.appoint(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/tuition/welfare],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySubstactTuitionController.getWelfare(java.lang.Integer)
+ "{[/course_v2/activityCenter/tuition/mark],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.dto.AppointModel>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySubstactTuitionController.getAllUserList(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/zhangtong/openZTZeroLongTermCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.openZTZeroLongTermCourse(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/saveTeacher/next/restart],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.saveTeacherWithNextDayRestart()
+ "{[/course_v2/activityCenter/system/openCourse/api],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.activityOpenCourse(java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/system/experience/buyAuth],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.experienceBuyAuth(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/unit],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.getUnitByLearnStartingAndGrade(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/tmq/teachers],methods=[GET]}"
+    onto public void
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.tmqRestartTeacher(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/cover/teacher],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.restartSaveTeacher()
+ "{[/course_v2/activityCenter/system/openCourseDate],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.getOpenCourseDate(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/teacherUrl],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.TeacherQrCodeDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.getTeacherByClassId(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/exCode/openCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.ExCodeOpenCourse(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/system/dataUp],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.DataUp(java.lang.String,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/system/pay],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.activityOrder(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/system/cmq],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.testSendMessage()
+ "{[/course_v2/activityCenter/system/oldUser],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.updateOldUser(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/exCode/register],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map<java.lang.String, java.lang.Object>>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.exRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/system/buyAuth],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.SpecialBuyAuth(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/auxiliary],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.hasAuxiliary(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/queryOrderState],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.order.api.vo.OrderBuyInfoVO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.queryOrderState(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/restart/teacher],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.saveTeacher(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/system/remedy/course],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.openCourseSelf(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/level/showing],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.UserLevelShowingDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.getUserStatus(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/api/teachers],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.saveTeacherFeign(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/teacherQrV2],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.getTeacherQr(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/system/oldUserV2],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.updateOldUserV2(java.lang.Integer)
+ "{[/course_v2/activityCenter/system/zhangtong/mainCourseCount],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivitySystemController.mainCourseCount(java.lang.Integer)
+ "{[/course_v2/activityCenter/task/appoint/message],methods=[POST]}"
+    onto public void
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityTaskTimingController.sendAppointMessage()
+ "{[/course_v2/activityCenter/task/returnMoney],methods=[POST]}"
+    onto public void
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityTaskTimingController.returnMoneyUser()
+ "{[/course_v2/activityCenter/task/appoint/userNum],methods=[POST]}"
+    onto public void
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityTaskTimingController.appointNum()
+ "{[/course_v2/activityCenter/task/restart/teachers],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityTaskTimingController.taskingRestart()
+ "{[/course_v2/activityCenter/wxMaMsg/sendKefuMsg],methods=[POST]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityWxMaMsgController.sendWxMaKefuMsg(com.alibaba.fastjson.JSONObject)
+ "{[/course_v2/activityCenter/miniCallBack/xinbang423]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityWxMiniCallBackController.messageCallBackXinBang(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/miniCallBack/messageCallBackGroupBuyExp]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityWxMiniCallBackController.messageCallBackGroupBuyExp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/zero/jinxiao/teacherUrl],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.dto.TeacherQrCodeDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityZeroClassIdController.getJinxiaoTeacher(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/zero/openCourse/classId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityZeroClassIdController.OpenCourse(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/zero/survive],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityZeroClassIdController.verifyClassId(java.lang.Integer)
+ "{[/course_v2/activityCenter/zero/startTime],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            ActivityZeroClassIdController.getReaminTime(java.lang.Integer)
+ "{[/course_v2/activityCenter/bubu/register],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.usercenter.api.dto.CourseUserWxMiniDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            bubu.ActivityBubuController.register(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/bubu/openCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            bubu.ActivityBubuController.OpenCourse(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/campInfo/startTime],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            CampInfoController.getActivityCampInfo(java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/campInfo/classId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.entity.PeriodsClassInfo>
+        com.putaoabc.activitiescommonservice.controller.
+            CampInfoController.getById(java.lang.Integer)
+ "{[/course_v2/activityCenter/campInfo/genPosterImage],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            CampInfoController.genPosterImage(java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/campInfo/getTeacherWxId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            CampInfoController.getTeacherWxId(java.lang.Integer)
+ "{[/course_v2/activityCenter/roundGroup/index],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.vo.RoundGroupVO>
+        com.putaoabc.activitiescommonservice.controller.
+            group.RoundGroupBuyController.getIndex(java.lang.Integer,java.lang.Integer,java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/roundGroup/job2ForRoundGroup],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            group.RoundGroupBuyController.job2ForRoundGroup(com.putaoabc.activitiescommonservice.controller.group.RoundGroupBuyController$JobForRoundGroupParam)
+ "{[/course_v2/activityCenter/roundGroup/backDoor],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            group.RoundGroupBuyController.backDoorProcessCMQRoundGroupBuyOrder(java.lang.Integer)
+ "{[/course_v2/activityCenter/roundGroup/roundGroupList],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.dto.AppointModel>>
+        com.putaoabc.activitiescommonservice.controller.
+            group.RoundGroupBuyController.roundGroupList(java.lang.Integer)
+ "{[/course_v2/activityCenter/roundGroup/jobForRoundGroup],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            group.RoundGroupBuyController.jobForRoundGroup() throws java.lang.Exception
+ "{[/course_v2/activityCenter/roundGroup/showList],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.dto.AppointModel>>
+        com.putaoabc.activitiescommonservice.controller.
+            group.RoundGroupBuyController.showList()
+ "{[/course_v2/activityCenter/secKill/index],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.vo.SecKillVO>
+        com.putaoabc.activitiescommonservice.controller.
+            group.SecKillController.getIndex(java.lang.String,java.lang.Integer) throws java.lang.Exception
+ "{[/course_v2/activityCenter/secKill/jobForSecKill],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            group.SecKillController.jobForSecKill(com.putaoabc.activitiescommonservice.controller.group.SecKillController$JobForSecKillParam) throws java.lang.Exception
+ "{[/course_v2/activityCenter/hwEdu/course/productPrice/{courseId}]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwCourseSyncController.updateProductPrice(java.lang.String,com.putaoabc.activitiescommonservice.hw_edu_common.UpdateProductPriceRequest)
+ "{[/course_v2/activityCenter/hwEdu/course/edit/{courseId}]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwCourseSyncController.editCourse(java.lang.String)
+ "{[/course_v2/activityCenter/hwEdu/course/metadata/{courseId}/{editId}]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwCourseSyncController.updateMetaData(java.lang.String,java.lang.String,com.putaoabc.activitiescommonservice.dto.hw_edu.CourseEditMetaData)
+ "{[/course_v2/activityCenter/hwEdu/course/createCourse]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwCourseSyncController.createCourse()
+ "{[/course_v2/activityCenter/hwEdu/order/test]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.test()
+ "{[/course_v2/activityCenter/hwEdu/order/thirdOrderId]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.queryByThirdOrderId(java.lang.String)
+ "{[/course_v2/activityCenter/hwEdu/order/dig/test]}"
+    onto public java.lang.String
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.digTest()
+ "{[/course_v2/activityCenter/hwEdu/order/delivery],methods=[POST],produces=[application/json;charset=utf-8]}"
+    onto public com.alibaba.fastjson.JSONObject
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.deliveryGoods(javax.servlet.http.HttpServletRequest,java.lang.String)
+ "{[/course_v2/activityCenter/hwEdu/order/cmq/hwLogin/test],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.testHwLogin(java.lang.String,java.lang.Integer,java.lang.String,java.lang.String)
+ "{[/course_v2/activityCenter/hwEdu/order/cmq/finish/process],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.processFinish(java.lang.String,java.lang.Integer,java.lang.String,java.lang.Long)
+ "{[/course_v2/activityCenter/hwEdu/order/cmq/finish/test],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.sendCourseFinish(java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Long,java.lang.String)
+ "{[/course_v2/activityCenter/hwEdu/order/getUserSignup]}"
+    onto public com.putaoabc.activitiescommonservice.dto.hw_edu.GetUserSignupResponse
+        com.putaoabc.activitiescommonservice.controller.
+            hw_edu_center.HwEduOrderSyncController.queryAllHwSignup(java.lang.String)
+ "{[/course_v2/activityCenter/reward/first/getLuckyRewardPool],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.FirstOpenRewardController.getLuckyRewardPool(java.lang.Integer)
+ "{[/course_v2/activityCenter/reward/first/getFirstOpenReward],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.FirstOpenRewardController.getFirstOpenReward(java.lang.Integer)
+ "{[/course_v2/activityCenter/lottery/countPeopleAndTimes],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map<java.lang.String, java.lang.Object>>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.longterm.LotteryController.countPeopleAndTimes() throws java.text.ParseException
+ "{[/course_v2/activityCenter/lottery/academicHoursByPutaoId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.longterm.LotteryController.academicHoursByPutaoId(java.lang.Integer)
+ "{[/course_v2/activityCenter/lottery/times],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.longterm.LotteryController.times(java.lang.Integer) throws java.text.ParseException
+ "{[/course_v2/activityCenter/lottery/lottery],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.longterm.LotteryController.lottery(java.lang.Integer) throws java.text.ParseException
+ "{[/course_v2/activityCenter/lottery/records],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.entity.invite.longterm.LotteryRecord>>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.longterm.LotteryController.records()
+ "{[/course_v2/activityCenter/lottery/recordsByPutaoId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<org.springframework.data.domain.Page<com.putaoabc.activitiescommonservice.entity.invite.longterm.LotteryRecord>>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.longterm.LotteryController.recordsByPutaoId(java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/reward/lucky/getRandomLuckyReward],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.LuckyRewardController.getRandomLuckyReward(java.lang.Integer)
+ "{[/course_v2/activityCenter/reward/lucky/getFiveRewardRecord],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.entity.invite.RewardRecord>>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.LuckyRewardController.getFiveRewardRecord()
+ "{[/course_v2/activityCenter/reward/lucky/updateStock],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult
+        com.putaoabc.activitiescommonservice.controller.
+            invite.LuckyRewardController.updateStock(java.lang.Integer)
+ "{[/course_v2/activityCenter/reward/lucky/rewardRecord],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.activitiescommonservice.entity.invite.RewardRecord>
+        com.putaoabc.activitiescommonservice.controller.
+            invite.LuckyRewardController.rewardRecord(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/class/getGoodsByClassId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.order.api.dto.CoursePackageDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            universal.ActivityClassController.getGoodsByClassId(java.lang.Integer)
+ "{[/course_v2/activityCenter/class/judgePersonalTypeByClassId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.Map<java.lang.Object, java.lang.Object>>
+        com.putaoabc.activitiescommonservice.controller.
+            universal.ActivityClassController.judgePersonalTypeByClassId(java.lang.Integer)
+ "{[/course_v2/activityCenter/universal/openZeroLongTermCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            universal.ActivityUniversalPurchaseController.openZeroLongTermCourse(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/universal/openExpOrSpecCourse],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            universal.ActivityUniversalPurchaseController.openExpOrSpecCourse(java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/universal/backDoorSaveTeacher],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            universal.ActivityUniversalPurchaseController.backDoorSaveTeacher(java.lang.Integer)
+ "{[/course_v2/activityCenter/wechat/verify],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<com.putaoabc.usercenter.api.dto.CourseUserDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.verify(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer)
+ "{[/course_v2/activityCenter/wechat/getPutaoIdByPhone],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.Integer>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.getPutaoIdByPhone(java.lang.String)
+ "{[/course_v2/activityCenter/wechat/openId],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.wxsnsapiBaseGetOpenId(java.lang.String)
+ "{[/course_v2/activityCenter/wechat/getUserByPutaoId],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.usercenter.api.dto.CourseUserDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.getUserByPutaoId(java.lang.Integer)
+ "{[/course_v2/activityCenter/wechat/judgeBinding],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.judgeBinding(java.lang.String) throws java.lang.Exception
+ "{[/course_v2/activityCenter/wechat/getUserByPhone],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<com.putaoabc.usercenter.api.dto.CourseUserDTO>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.getUserByPhone(java.lang.String)
+ "{[/course_v2/activityCenter/wechat/share_signature]}"
+    onto public org.springframework.web.servlet.ModelAndView
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.shareSignature(java.lang.String)
+ "{[/course_v2/activityCenter/wechat/sendCode],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.sendCode(java.lang.String)
+ "{[/course_v2/activityCenter/wechat/wxAuth],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.wxAuth(java.lang.String)
+ "{[/course_v2/activityCenter/wechat/poster],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.invitePoster(java.lang.String,java.lang.Integer,java.lang.String)
+ "{[/course_v2/activityCenter/wechat/wxPayVerify],methods=[GET]}"
+    onto public com.putaoabc.component.common.vo.BaseBizResult<java.lang.String>
+        com.putaoabc.activitiescommonservice.controller.
+            WechatController.wxPayVerify(java.lang.String,java.lang.Integer)
+ "{[/course_v2/activityCenter/xiaohapi/placeOrder/permission],methods=[POST],consumes=[application/x-www-form-urlencoded;charset=utf-8]}"
+    onto public com.alibaba.fastjson.JSONObject
+        com.putaoabc.activitiescommonservice.controller.
+            xiaohapi.XiaoHaPiCallBackController.verifyPermission(javax.servlet.http.HttpServletRequest,com.putaoabc.activitiescommonservice.entity.xiaohapi.XiaoHaPiVerifyPermissionMsg)
+ "{[/course_v2/activityCenter/xiaohapi/placeOrder],methods=[POST]}"
+    onto public com.alibaba.fastjson.JSONObject
+        com.putaoabc.activitiescommonservice.controller.
+            xiaohapi.XiaoHaPiCallBackController.synXiaoHaPiOrder(javax.servlet.http.HttpServletRequest,com.putaoabc.activitiescommonservice.dto.XHPOrderDTO)
+ "{[/course_v2/activityCenter/yz/msg/batchprocessfail],methods=[POST],produces=[application/json;charset=utf-8]}"
+    onto public java.lang.Object
+        com.putaoabc.activitiescommonservice.controller.
+            youzan.YouZanCallBackController.batchProcessFailOrder(java.lang.String)
+ "{[/course_v2/activityCenter/yz/msg/callback],methods=[POST],produces=[application/json;charset=utf-8]}"
+    onto public java.lang.Object
+        com.putaoabc.activitiescommonservice.controller.
+            youzan.YouZanCallBackController.msgCallback(com.putaoabc.activitiescommonservice.dto.YouZanMsgPushEntity) throws java.lang.Exception
+ "{[/course_v2/activityCenter/zt/jobDailyDataUpload4FreeDraw],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.entity.ActivtiyCenterOrder>>
+        com.putaoabc.activitiescommonservice.controller.
+            zt.ActivityZTLongTermController.jobDailyDataUpload4FreeDraw() throws java.lang.Exception
+ "{[/course_v2/activityCenter/zt/returnMoneyCsv],methods=[POST]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.lang.Object>
+        com.putaoabc.activitiescommonservice.controller.
+            zt.ActivityZTLongTermController.dailyDataUpload4FreeDraw()
+ "{[/course_v2/activityCenter/zt/dailyDataUpload4FreeDraw],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.activitiescommonservice.entity.ActivtiyCenterOrder>>
+        com.putaoabc.activitiescommonservice.controller.
+            zt.ActivityZTLongTermController.dailyDataUpload4FreeDraw(java.lang.String) throws java.lang.Exception
+ "{[/course_v2/activityCenter/zt/getZTLongTermGoodsList],methods=[GET]}"
+    onto public com.putaoabc.component.common.entity.BizResult<java.util.List<com.putaoabc.order.api.dto.CoursePackageDTO>>
+        com.putaoabc.activitiescommonservice.controller.
+            zt.ActivityZTLongTermController.getZTLongTermGoodsList()
+
+
+
+
+
+ "{[/error]}"
+    onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>>
+        org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ "{[/error],produces=[text/html]}"
+    onto public org.springframework.web.servlet.ModelAndView
+        org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+
+
+
+
+  INFO 32308 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  INFO 32308 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]

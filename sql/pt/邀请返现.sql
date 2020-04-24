@@ -113,3 +113,8 @@ INSERT INTO `reward_lucky_record` VALUES (3, 11, 0, 1, 1, NULL, 0, '2020-01-20 1
 INSERT INTO `reward_lucky_record` VALUES (4, 11, 0, 1, 0, NULL, 0, '2020-01-20 14:30:38', NULL);
 
 SET FOREIGN_KEY_CHECKS = 1;
+
+
+
+
+select coursefini0_.id as id1_1_, coursefini0_.cid as cid2_1_, coursefini0_.create_time as create_t3_1_, coursefini0_.putao_id as putao_id4_1_, coursefini0_.start_time as start_ti5_1_, coursefini0_.status as status6_1_, coursefini0_.update_time as update_t7_1_ from course_finished_situation coursefini0_ where coursefini0_.putao_id=? order by coursefini0_.create_time asc limit ?

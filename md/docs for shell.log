@@ -1,0 +1,10 @@
+ ssh Server04.bj3
+ cd /search/user/shy/tools/
+
+ omnitty  -T 120
+ omnitty  -T 120 -w 80
+ omnitty  -W 80
+ omnitty  -W 200
+ omnitty  -T 200
+
+187524,87307,195185,22965,207827,204269,120285,78025,194880,104416,173085,129254

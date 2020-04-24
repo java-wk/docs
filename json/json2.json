@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "msg": null,
+  "data": {
+    "groupStatus": 1,
+    "activityStatus": 1,
+    "userType": -1,
+    "activityBeginDate": "2020-02-27T19:34:31.000+0000",
+    "activityEndDate": "2020-03-05T19:34:33.000+0000",
+    "nowDate": "2020-03-02T10:08:13.774+0000",
+    "activityBeginTime": 1582832071000,
+    "activityEndTime": 1583436873000,
+    "nowTime": 1583143693774,
+    "classId": 144,
+    "groupPeopleCount": 0,
+    "groupPeopleTotal": 100,
+    "goodsId": 215,
+    "addCourseNums": 5,
+    "ifGroup": 0,
+    "goodsInfo": {
+      "goodsName": "葡萄英语128课时套餐（带勤学）",
+      "originalPrice": 299900,
+      "detail": "含最高赠课100课时",
+      "goodsType": null,
+      "sellPrice": 1,
+      "disOrderId": null,
+      "goodsId": 215,
+      "periodNum": 128,
+      "endTime": null,
+      "thirdProductId": null,
+      "studyHardEffectiveDay": 720,
+      "courseType": "长期班",
+      "studyHardPeriodNum": 100,
+      "hasAuxiliary": 1,
+      "auxiliarys": null,
+      "url": null,
+      "effectiveDay": 420,
+      "suspensionCount": null,
+      "remark": null,
+      "joinReferral": 1,
+      "createBy": null,
+      "joinStudyHard": 1,
+      "stat": null
+    },
+    "groupUserInfos": [
+      {
+        "id": 1,
+        "roundId": 21,
+        "putaoId": 9,
+        "serialNo": null,
+        "nickName": "阿鹏",
+        "photo": "https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83erNhfqSz4085ntiafYdMkib9og1lfMeBpss9NGaiaOaFGlar0zI4xhibrSOBtH5Fq3po8pic0icjzouN0Lw/132",
+        "fromPutaoId": 100000,
+        "createTime": "2020/03/02 17:52:11"
+      },
+      {
+        "id": 2,
+        "roundId": 21,
+        "putaoId": 19,
+        "serialNo": null,
+        "nickName": "Bruce lee",
+        "photo": "https://wx.qlogo.cn/mmopen/vi_32/KVl8H0AFSOcSG5jEiclp83XicSxaMmp9icaWeW78GjoiafmjbXITo1yQlY3ibAgPer6QCM06p1f4cQaF4k651TQYl0A/132",
+        "fromPutaoId": null,
+        "createTime": "2020/03/02 18:06:18"
+      }
+    ]
+  },
+  "success": true
+}

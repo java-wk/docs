@@ -160,3 +160,392 @@ Hibernate: select activityca0_.id as id1_35_0_, activityca0_.activity_ids as act
 Hibernate: select periodscla0_.class_id as class_id1_29_, periodscla0_.activity_id as activity2_29_, periodscla0_.activity_type as activity3_29_, periodscla0_.camp_id as camp_id4_29_, periodscla0_.class_code_url as class_co5_29_, periodscla0_.class_name as class_na6_29_, periodscla0_.class_status as class_st7_29_, periodscla0_.course_type as course_t8_29_, periodscla0_.course_type_details as course_t9_29_, periodscla0_.create_time as create_10_29_, periodscla0_.device as device11_29_, periodscla0_.grade as grade12_29_, periodscla0_.opening_date as opening13_29_, periodscla0_.periods as periods14_29_, periodscla0_.periods_describe as periods15_29_, periodscla0_.periods_type as periods16_29_, periodscla0_.pred_num as pred_nu17_29_, periodscla0_.school_id as school_18_29_, periodscla0_.school_name as school_19_29_, periodscla0_.st_name as st_name20_29_, periodscla0_.teacher_id as teacher21_29_, periodscla0_.teacher_wx_num as teacher22_29_, periodscla0_.update_code_num as update_23_29_, periodscla0_.update_code_type as update_24_29_, periodscla0_.update_time as update_25_29_ from periods_class_info periodscla0_ where periodscla0_.class_id=? limit ?
 
 
+
+
+
+
+
+
+
+
+2020-02-25 15:25:10.492  INFO 6281 --- [nio-8789-exec-1] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/lottery/times?putaoid=45542&
+2020-02-25 15:25:10.571  INFO 6281 --- [nio-8789-exec-1] c.p.a.s.a.i.longterm.LotteryService      : data:[
+	{
+		"createTime":1575978862000,
+		"phoneNum":"14500004656",
+		"putaoId":737595,
+		"source":807,
+		"sourcePutaoId":45542,
+		"updateTime":1575980427000,
+		"youzanAge":0
+	},
+	{
+		"createTime":1575979752000,
+		"nickname":"赵鹏",
+		"phoneNum":"14500004657",
+		"putaoId":737596,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1575983609000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLJVv140jibqqyEp2g62oRDohLLCkrKGv0PWVsp99JMSSHwNOLUpvgNaaxXOOfANfibLuOwJQF17XoA/132"
+	},
+	{
+		"createTime":1576044747000,
+		"nickname":"赵鹏",
+		"phoneNum":"14500004659",
+		"putaoId":737598,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576053061000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLJVv140jibqqyEp2g62oRDohLLCkrKGv0PWVsp99JMSSHwNOLUpvgNaaxXOOfANfibLuOwJQF17XoA/132"
+	},
+	{
+		"createTime":1576053208000,
+		"nickname":"赵鹏",
+		"phoneNum":"14500004660",
+		"putaoId":737600,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576057127000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLJVv140jibqqyEp2g62oRDohLLCkrKGv0PWVsp99JMSSHwNOLUpvgNaaxXOOfANfibLuOwJQF17XoA/132"
+	},
+	{
+		"createTime":1576057176000,
+		"engName":"qqqqqqqqqqqqqq",
+		"nickname":"抽飞机",
+		"password":"4QrcOUm6Wau+VuBX8g+IPg==",
+		"phoneNum":"14500004661",
+		"putaoId":737601,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576207746000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/OpqHHsgWiaSTDmVs1Gj6q0oLz40ByposB3P782k7PADoyzNTRicNcD9VfC9CdiakdDX2mQMf2TWWmM3mEicQ9Cgabw/132"
+	},
+	{
+		"createTime":1576058208000,
+		"nickname":"抽飞机",
+		"password":"4QrcOUm6Wau+VuBX8g+IPg==",
+		"phoneNum":"14500004662",
+		"putaoId":737602,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576209120000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/OpqHHsgWiaSTDmVs1Gj6q0oLz40ByposB3P782k7PADoyzNTRicNcD9VfC9CdiakdDX2mQMf2TWWmM3mEicQ9Cgabw/132"
+	},
+	{
+		"createTime":1576061440000,
+		"nickname":"赵鹏",
+		"phoneNum":"14500004665",
+		"putaoId":737605,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576062850000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLJVv140jibqqyEp2g62oRDohLLCkrKGv0PWVsp99JMSSHwNOLUpvgNaaxXOOfANfibLuOwJQF17XoA/132",
+		"youzanAge":2
+	},
+	{
+		"createTime":1576121347000,
+		"nickname":"赵鹏",
+		"phoneNum":"14500004667",
+		"putaoId":737607,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576121750000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLJVv140jibqqyEp2g62oRDohLLCkrKGv0PWVsp99JMSSHwNOLUpvgNaaxXOOfANfibLuOwJQF17XoA/132",
+		"youzanAge":12
+	},
+	{
+		"createTime":1576121726000,
+		"nickname":"赵鹏",
+		"phoneNum":"14500004668",
+		"putaoId":737608,
+		"source":2007,
+		"sourcePutaoId":45542,
+		"updateTime":1576125590000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLJVv140jibqqyEp2g62oRDohLLCkrKGv0PWVsp99JMSSHwNOLUpvgNaaxXOOfANfibLuOwJQF17XoA/132"
+	},
+	{
+		"createTime":1581480792000,
+		"nickname":"小狼1987",
+		"phoneNum":"14500004669",
+		"putaoId":737610,
+		"source":807,
+		"sourcePutaoId":45542,
+		"updateTime":1579072965000,
+		"wxPhoto":"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83er7atcicUoyBt6Wj3Qia1yNx6vJeFPXuSSdKwt4o8SzZbbhoZIxPmnF5jyfWvFD5ibtW2gic3YO2Pibib9Q/132"
+	}
+]
+2020-02-25 15:25:10.595  INFO 6281 --- [nio-8789-exec-1] c.p.a.s.a.i.longterm.LotteryService      : finishTimeObj:2019-12-12 18:26:44
+2020-02-25 15:25:10.596  INFO 6281 --- [nio-8789-exec-1] c.p.a.s.a.i.longterm.LotteryService      : list:[]
+Hibernate: select lotteryrec0_.id as id1_24_, lotteryrec0_.create_time as create_t2_24_, lotteryrec0_.lottery_id as lottery_3_24_, lotteryrec0_.phone_num as phone_nu4_24_, lotteryrec0_.putao_id as putao_id5_24_, lotteryrec0_.ship_status as ship_sta6_24_ from lottery_record lotteryrec0_ where lotteryrec0_.putao_id=? order by lotteryrec0_.create_time desc
+2020-02-25 15:25:10.596 TRACE 6281 --- [nio-8789-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [45542]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020-03-05 14:12:11.853 TRACE 26387 --- [nio-8789-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : {"conditions":{"condition_forbid":[[{"leftoperator":"ifForbidOther","predicate":"eq","rightoperator":0}]],"condition_course":[[]],"condition_source":[[]]}}
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : conditions_sub[[]]
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : 0
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.util.ActivityAdmissionUtil         : stack =>[1==1]
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : subResult =>true
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : conditions_sub[[]]
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : 0
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.util.ActivityAdmissionUtil         : stack =>[1==1]
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : subResult =>true
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : conditions_sub[[{"leftoperator":"ifForbidOther","predicate":"eq","rightoperator":0}]]
+2020-03-05 14:12:11.854  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : 1
+Hibernate: select activityre0_.id as id1_10_, activityre0_.activity_id as activity2_10_, activityre0_.activity_name as activity3_10_, activityre0_.class_id as class_id4_10_, activityre0_.create_time as create_t5_10_, activityre0_.experience_id as experien6_10_, activityre0_.putao_id as putao_id7_10_, activityre0_.return_day as return_d8_10_, activityre0_.return_money as return_m9_10_, activityre0_.return_platform as return_10_10_, activityre0_.return_type as return_11_10_, activityre0_.status as status12_10_ from activity_return_money_record activityre0_ where activityre0_.putao_id=?
+2020-03-05 14:12:11.854 TRACE 26387 --- [nio-8789-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [738356]
+2020-03-05 14:12:11.855  INFO 26387 --- [nio-8789-exec-8] c.p.a.util.ActivityAdmissionUtil         : stack =>[2==0]
+2020-03-05 14:12:11.855  INFO 26387 --- [nio-8789-exec-8] c.p.a.util.ActivityAdmissionUtil         : stack =>[false]
+2020-03-05 14:12:11.855  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : subResult =>false
+2020-03-05 14:12:11.855  INFO 26387 --- [nio-8789-exec-8] c.p.a.service.ActivityAdmissionService   : change to true
+2020-03-05 14:12:11.855  INFO 26387 --- [nio-8789-exec-8] c.p.a.util.ActivityAdmissionUtil         : stack =>[true, &&, true, &&, true]
+2020-03-05 14:12:11.855  INFO 26387 --- [nio-8789-exec-8] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=3,http_code=200,ip=121.69.42.54,putaoid=738356,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/admission/checkAdmissionWithTip,uuid=9c7cb8cc-0bb1-43e8-9f4a-1074af725307]
+2020-03-05 14:12:11.928  INFO 26387 --- [MessageThread_1] p.a.s.ActivityCenterSubcribeListenerImpl : activity center start recive message,queue:dev-topic-activities-common-service,msg:[msgId=4503599627371339, receiptHandle=8075120365691154016, data={"activityOrder":{"tags":["activityRoundGroupBuyOrder"],"data":{"orderId":21739,"openCourseNum":70,"effectiveDay":280,"tag":"activityRoundGroupBuyOrder"}}}]
+2020-03-05 14:12:11.930  INFO 26387 --- [MessageThread_1] p.a.s.ActivityCenterSubcribeListenerImpl : activityRoundGroupBuyOrder: CmqOrderModel:{
+    "effectiveDay":280,
+    "openCourseNum":70,
+    "orderId":21739,
+    "tag":"activityRoundGroupBuyOrder"
+}
+Hibernate: select activtiyce0_.id as id1_15_, activtiyce0_.activity_id as activity2_15_, activtiyce0_.activity_type as activity3_15_, activtiyce0_.class_id as class_id4_15_, activtiyce0_.create_time as create_t5_15_, activtiyce0_.dis_count_code as dis_coun6_15_, activtiyce0_.from_putao_id as from_put7_15_, activtiyce0_.goods_id as goods_id8_15_, activtiyce0_.group_id as group_id9_15_, activtiyce0_.open_id as open_id10_15_, activtiyce0_.order_id as order_i11_15_, activtiyce0_.pay_status as pay_sta12_15_, activtiyce0_.price as price13_15_, activtiyce0_.putao_id as putao_i14_15_, activtiyce0_.round_id as round_i15_15_, activtiyce0_.source as source16_15_, activtiyce0_.unit as unit17_15_, activtiyce0_.unit_adjustment_times as unit_ad18_15_, activtiyce0_.update_time as update_19_15_, activtiyce0_.user_phone as user_ph20_15_, activtiyce0_.zt_id as zt_id21_15_ from activtiy_center_order activtiyce0_ where activtiyce0_.order_id=? limit ?
+2020-03-05 14:12:11.931 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [21739]
+2020-03-05 14:12:11.933  INFO 26387 --- [MessageThread_1] c.p.a.s.g.ActivityRoundGroupBuyService   : activityRoundGroupBuyOrder{
+    "activityId":124,
+    "classId":144,
+    "createTime":1583388726000,
+    "goodsId":214,
+    "id":1266,
+    "keyString":"ztId,userPhone,goodsId,goodsName,price,count,createTime,orderId",
+    "openId":"oBGlE0VcRlxdfJCTYA4cKpbfVPPQ",
+    "orderId":21739,
+    "putaoId":738674,
+    "roundId":26,
+    "source":815,
+    "updateTime":1583388726000,
+    "userPhone":"14500001065",
+    "valueString":"null,14500001065,214,体验课（4课时）,null,1,2020-03-05 14:12:06.0,"
+}
+Hibernate: select activityro0_.round_id as round_id1_45_0_, activityro0_.acti_msg_wx_template_record_id as acti_msg2_45_0_, activityro0_.add_course_num as add_cour3_45_0_, activityro0_.appoint_time as appoint_4_45_0_, activityro0_.class_id as class_id5_45_0_, activityro0_.create_time as create_t6_45_0_, activityro0_.discount_level as discount7_45_0_, activityro0_.end_time as end_time8_45_0_, activityro0_.first_num as first_nu9_45_0_, activityro0_.first_price as first_p10_45_0_, activityro0_.group_buy_count as group_b11_45_0_, activityro0_.if_group as if_grou12_45_0_, activityro0_.original_price as origina13_45_0_, activityro0_.round_name as round_n14_45_0_, activityro0_.second_num as second_15_45_0_, activityro0_.second_price as second_16_45_0_, activityro0_.source as source17_45_0_, activityro0_.start_time as start_t18_45_0_, activityro0_.third_num as third_n19_45_0_, activityro0_.third_price as third_p20_45_0_, activityro0_.type as type21_45_0_, activityro0_.update_time as update_22_45_0_ from t_activity_round_info activityro0_ where activityro0_.round_id=?
+2020-03-05 14:12:11.934 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [26]
+Hibernate: select periodscla0_.class_id as class_id1_32_, periodscla0_.activity_id as activity2_32_, periodscla0_.activity_type as activity3_32_, periodscla0_.camp_id as camp_id4_32_, periodscla0_.class_code_url as class_co5_32_, periodscla0_.class_name as class_na6_32_, periodscla0_.class_status as class_st7_32_, periodscla0_.course_type as course_t8_32_, periodscla0_.course_type_details as course_t9_32_, periodscla0_.create_time as create_10_32_, periodscla0_.device as device11_32_, periodscla0_.grade as grade12_32_, periodscla0_.opening_date as opening13_32_, periodscla0_.periods as periods14_32_, periodscla0_.periods_describe as periods15_32_, periodscla0_.periods_type as periods16_32_, periodscla0_.pred_num as pred_nu17_32_, periodscla0_.school_id as school_18_32_, periodscla0_.school_name as school_19_32_, periodscla0_.st_name as st_name20_32_, periodscla0_.teacher_id as teacher21_32_, periodscla0_.teacher_wx_num as teacher22_32_, periodscla0_.update_code_num as update_23_32_, periodscla0_.update_code_type as update_24_32_, periodscla0_.update_time as update_25_32_ from periods_class_info periodscla0_ where periodscla0_.class_id=? limit ?
+2020-03-05 14:12:11.937 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [144]
+Hibernate: select activityin0_.activity_id as activity1_7_, activityin0_.acti_msg_fixed as acti_msg2_7_, activityin0_.acti_msg_sms_record as acti_msg3_7_, activityin0_.acti_msg_wx_template_record as acti_msg4_7_, activityin0_.activity_name as activity5_7_, activityin0_.activity_type as activity6_7_, activityin0_.activity_url as activity7_7_, activityin0_.cash_condition as cash_con8_7_, activityin0_.conditions as conditio9_7_, activityin0_.create_by as create_10_7_, activityin0_.create_time as create_11_7_, activityin0_.goods_price as goods_p12_7_, activityin0_.if_renew as if_rene13_7_, activityin0_.if_return_cash as if_retu14_7_, activityin0_.package_id as package15_7_, activityin0_.package_name as package16_7_, activityin0_.package_type as package17_7_, activityin0_.personal_type as persona18_7_, activityin0_.prompt_info as prompt_19_7_, activityin0_.supple_id as supple_20_7_, activityin0_.unit as unit21_7_, activityin0_.update_by as update_22_7_, activityin0_.update_time as update_23_7_ from activity_info activityin0_ where activityin0_.activity_id=? limit ?
+2020-03-05 14:12:11.938 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+Hibernate: select activityca0_.id as id1_42_0_, activityca0_.activity_ids as activity2_42_0_, activityca0_.activity_type as activity3_42_0_, activityca0_.course_type as course_t4_42_0_, activityca0_.course_type_details as course_t5_42_0_, activityca0_.course_type_time as course_t6_42_0_, activityca0_.create_time as create_t7_42_0_, activityca0_.first_leads_end_time as first_le8_42_0_, activityca0_.first_leads_start_time as first_le9_42_0_, activityca0_.leads_type as leads_t10_42_0_, activityca0_.name as name11_42_0_, activityca0_.opening_date as opening12_42_0_, activityca0_.pred_num as pred_nu13_42_0_, activityca0_.second_leads_end_time as second_14_42_0_, activityca0_.second_leads_start_time as second_15_42_0_, activityca0_.second_opening_date as second_16_42_0_, activityca0_.update_code_cycle as update_17_42_0_, activityca0_.update_code_value as update_18_42_0_, activityca0_.update_periods_time as update_19_42_0_, activityca0_.update_time as update_20_42_0_ from t_activity_camp_info activityca0_ where activityca0_.id=?
+2020-03-05 14:12:11.938 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [257]
+Hibernate: select activtiyce0_.id as id1_15_0_, activtiyce0_.activity_id as activity2_15_0_, activtiyce0_.activity_type as activity3_15_0_, activtiyce0_.class_id as class_id4_15_0_, activtiyce0_.create_time as create_t5_15_0_, activtiyce0_.dis_count_code as dis_coun6_15_0_, activtiyce0_.from_putao_id as from_put7_15_0_, activtiyce0_.goods_id as goods_id8_15_0_, activtiyce0_.group_id as group_id9_15_0_, activtiyce0_.open_id as open_id10_15_0_, activtiyce0_.order_id as order_i11_15_0_, activtiyce0_.pay_status as pay_sta12_15_0_, activtiyce0_.price as price13_15_0_, activtiyce0_.putao_id as putao_i14_15_0_, activtiyce0_.round_id as round_i15_15_0_, activtiyce0_.source as source16_15_0_, activtiyce0_.unit as unit17_15_0_, activtiyce0_.unit_adjustment_times as unit_ad18_15_0_, activtiyce0_.update_time as update_19_15_0_, activtiyce0_.user_phone as user_ph20_15_0_, activtiyce0_.zt_id as zt_id21_15_0_ from activtiy_center_order activtiyce0_ where activtiyce0_.id=?
+2020-03-05 14:12:11.939 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1266]
+Hibernate: update activtiy_center_order set activity_id=?, activity_type=?, class_id=?, dis_count_code=?, from_putao_id=?, goods_id=?, group_id=?, open_id=?, order_id=?, pay_status=?, price=?, putao_id=?, round_id=?, source=?, unit=?, unit_adjustment_times=?, update_time=?, user_phone=?, zt_id=? where id=?
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [144]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [214]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [VARCHAR] - [oBGlE0VcRlxdfJCTYA4cKpbfVPPQ]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [INTEGER] - [21739]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [INTEGER] - [1]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [12] as [INTEGER] - [738674]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [13] as [INTEGER] - [26]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [14] as [INTEGER] - [815]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [15] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [16] as [INTEGER] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [17] as [TIMESTAMP] - [Thu Mar 05 14:12:11 CST 2020]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [18] as [VARCHAR] - [14500001065]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [19] as [VARCHAR] - [null]
+2020-03-05 14:12:11.940 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [20] as [INTEGER] - [1266]
+Hibernate: insert into round_group_user_rel (from_putao_id, nick_name, photo, putao_id, round_id, serial_no) values (?, ?, ?, ?, ?, ?)
+2020-03-05 14:12:11.981 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [null]
+2020-03-05 14:12:11.981 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [抽飞机]
+2020-03-05 14:12:11.981 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [http://thirdwx.qlogo.cn/mmopen/vi_32/OpqHHsgWiaSTDmVs1Gj6q0oLz40ByposB3P782k7PADoyzNTRicNcD9VfC9CdiakdDX2mQMf2TWWmM3mEicQ9Cgabw/132]
+2020-03-05 14:12:11.981 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [738674]
+2020-03-05 14:12:11.981 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [26]
+2020-03-05 14:12:11.981 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [70]
+Hibernate: insert into activity_center_record (putao_id, refer_id, source) values (?, ?, ?)
+2020-03-05 14:12:11.985 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [738674]
+2020-03-05 14:12:11.985 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [null]
+2020-03-05 14:12:11.985 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [815]
+Hibernate: select activtiyce0_.id as id1_15_, activtiyce0_.activity_id as activity2_15_, activtiyce0_.activity_type as activity3_15_, activtiyce0_.class_id as class_id4_15_, activtiyce0_.create_time as create_t5_15_, activtiyce0_.dis_count_code as dis_coun6_15_, activtiyce0_.from_putao_id as from_put7_15_, activtiyce0_.goods_id as goods_id8_15_, activtiyce0_.group_id as group_id9_15_, activtiyce0_.open_id as open_id10_15_, activtiyce0_.order_id as order_i11_15_, activtiyce0_.pay_status as pay_sta12_15_, activtiyce0_.price as price13_15_, activtiyce0_.putao_id as putao_i14_15_, activtiyce0_.round_id as round_i15_15_, activtiyce0_.source as source16_15_, activtiyce0_.unit as unit17_15_, activtiyce0_.unit_adjustment_times as unit_ad18_15_, activtiyce0_.update_time as update_19_15_, activtiyce0_.user_phone as user_ph20_15_, activtiyce0_.zt_id as zt_id21_15_ from activtiy_center_order activtiyce0_ where activtiyce0_.order_id=? limit ?
+2020-03-05 14:12:11.988 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [21739]
+Hibernate: select activityin0_.activity_id as activity1_7_0_, activityin0_.acti_msg_fixed as acti_msg2_7_0_, activityin0_.acti_msg_sms_record as acti_msg3_7_0_, activityin0_.acti_msg_wx_template_record as acti_msg4_7_0_, activityin0_.activity_name as activity5_7_0_, activityin0_.activity_type as activity6_7_0_, activityin0_.activity_url as activity7_7_0_, activityin0_.cash_condition as cash_con8_7_0_, activityin0_.conditions as conditio9_7_0_, activityin0_.create_by as create_10_7_0_, activityin0_.create_time as create_11_7_0_, activityin0_.goods_price as goods_p12_7_0_, activityin0_.if_renew as if_rene13_7_0_, activityin0_.if_return_cash as if_retu14_7_0_, activityin0_.package_id as package15_7_0_, activityin0_.package_name as package16_7_0_, activityin0_.package_type as package17_7_0_, activityin0_.personal_type as persona18_7_0_, activityin0_.prompt_info as prompt_19_7_0_, activityin0_.supple_id as supple_20_7_0_, activityin0_.unit as unit21_7_0_, activityin0_.update_by as update_22_7_0_, activityin0_.update_time as update_23_7_0_ from activity_info activityin0_ where activityin0_.activity_id=?
+2020-03-05 14:12:11.990 TRACE 26387 --- [MessageThread_1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+2020-03-05 14:12:11.990  INFO 26387 --- [MessageThread_1] c.p.a.service.ActivityCommonService      : before changeSource
+2020-03-05 14:12:11.996  INFO 26387 --- [MessageThread_1] c.p.a.service.ActivityCommonService      : 7827996_2.1744433333333335
+2020-03-05 14:12:27.611  INFO 26387 --- [nio-8789-exec-7] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/roundGroup/index?uuid=10.10.38.141&putaoid=738674&sign=c5c925d654959c9eb23f8c86bd5a7f20&ts=1583388747561&from=weixin&putaoId=738674&token=dfbb1a566e&source=815&sourceToken=tj+OI6WR&classId=144&tId=41&roundId=26&
+Hibernate: select activityro0_.round_id as round_id1_45_0_, activityro0_.acti_msg_wx_template_record_id as acti_msg2_45_0_, activityro0_.add_course_num as add_cour3_45_0_, activityro0_.appoint_time as appoint_4_45_0_, activityro0_.class_id as class_id5_45_0_, activityro0_.create_time as create_t6_45_0_, activityro0_.discount_level as discount7_45_0_, activityro0_.end_time as end_time8_45_0_, activityro0_.first_num as first_nu9_45_0_, activityro0_.first_price as first_p10_45_0_, activityro0_.group_buy_count as group_b11_45_0_, activityro0_.if_group as if_grou12_45_0_, activityro0_.original_price as origina13_45_0_, activityro0_.round_name as round_n14_45_0_, activityro0_.second_num as second_15_45_0_, activityro0_.second_price as second_16_45_0_, activityro0_.source as source17_45_0_, activityro0_.start_time as start_t18_45_0_, activityro0_.third_num as third_n19_45_0_, activityro0_.third_price as third_p20_45_0_, activityro0_.type as type21_45_0_, activityro0_.update_time as update_22_45_0_ from t_activity_round_info activityro0_ where activityro0_.round_id=?
+2020-03-05 14:12:27.612 TRACE 26387 --- [nio-8789-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [26]
+2020-03-05 14:12:27.612  INFO 26387 --- [nio-8789-exec-9] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/system/auxiliary?uuid=10.10.38.141&putaoid=738674&sign=f65f5570e0fe6f3aa01a6bd27d2f9179&ts=1583388747562&from=weixin&putaoId=738674&token=dfbb1a566e&source=815&sourceToken=tj+OI6WR&classId=144&tId=41&roundId=26&
+Hibernate: select periodscla0_.class_id as class_id1_32_, periodscla0_.activity_id as activity2_32_, periodscla0_.activity_type as activity3_32_, periodscla0_.camp_id as camp_id4_32_, periodscla0_.class_code_url as class_co5_32_, periodscla0_.class_name as class_na6_32_, periodscla0_.class_status as class_st7_32_, periodscla0_.course_type as course_t8_32_, periodscla0_.course_type_details as course_t9_32_, periodscla0_.create_time as create_10_32_, periodscla0_.device as device11_32_, periodscla0_.grade as grade12_32_, periodscla0_.opening_date as opening13_32_, periodscla0_.periods as periods14_32_, periodscla0_.periods_describe as periods15_32_, periodscla0_.periods_type as periods16_32_, periodscla0_.pred_num as pred_nu17_32_, periodscla0_.school_id as school_18_32_, periodscla0_.school_name as school_19_32_, periodscla0_.st_name as st_name20_32_, periodscla0_.teacher_id as teacher21_32_, periodscla0_.teacher_wx_num as teacher22_32_, periodscla0_.update_code_num as update_23_32_, periodscla0_.update_code_type as update_24_32_, periodscla0_.update_time as update_25_32_ from periods_class_info periodscla0_ where periodscla0_.class_id=? limit ?
+2020-03-05 14:12:27.612  INFO 26387 --- [nio-8789-exec-5] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/class/judgePersonalTypeByClassId?uuid=10.10.38.141&putaoid=738674&sign=92ca9424f1472aceb0bef1159c931e9b&ts=1583388747563&from=weixin&putaoId=738674&token=dfbb1a566e&source=815&sourceToken=tj+OI6WR&classId=144&tId=41&roundId=26&
+2020-03-05 14:12:27.612 TRACE 26387 --- [nio-8789-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [144]
+Hibernate: select periodscla0_.class_id as class_id1_32_0_, periodscla0_.activity_id as activity2_32_0_, periodscla0_.activity_type as activity3_32_0_, periodscla0_.camp_id as camp_id4_32_0_, periodscla0_.class_code_url as class_co5_32_0_, periodscla0_.class_name as class_na6_32_0_, periodscla0_.class_status as class_st7_32_0_, periodscla0_.course_type as course_t8_32_0_, periodscla0_.course_type_details as course_t9_32_0_, periodscla0_.create_time as create_10_32_0_, periodscla0_.device as device11_32_0_, periodscla0_.grade as grade12_32_0_, periodscla0_.opening_date as opening13_32_0_, periodscla0_.periods as periods14_32_0_, periodscla0_.periods_describe as periods15_32_0_, periodscla0_.periods_type as periods16_32_0_, periodscla0_.pred_num as pred_nu17_32_0_, periodscla0_.school_id as school_18_32_0_, periodscla0_.school_name as school_19_32_0_, periodscla0_.st_name as st_name20_32_0_, periodscla0_.teacher_id as teacher21_32_0_, periodscla0_.teacher_wx_num as teacher22_32_0_, periodscla0_.update_code_num as update_23_32_0_, periodscla0_.update_code_type as update_24_32_0_, periodscla0_.update_time as update_25_32_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-03-05 14:12:27.614 TRACE 26387 --- [nio-8789-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [144]
+Hibernate: select periodscla0_.class_id as class_id1_32_0_, periodscla0_.activity_id as activity2_32_0_, periodscla0_.activity_type as activity3_32_0_, periodscla0_.camp_id as camp_id4_32_0_, periodscla0_.class_code_url as class_co5_32_0_, periodscla0_.class_name as class_na6_32_0_, periodscla0_.class_status as class_st7_32_0_, periodscla0_.course_type as course_t8_32_0_, periodscla0_.course_type_details as course_t9_32_0_, periodscla0_.create_time as create_10_32_0_, periodscla0_.device as device11_32_0_, periodscla0_.grade as grade12_32_0_, periodscla0_.opening_date as opening13_32_0_, periodscla0_.periods as periods14_32_0_, periodscla0_.periods_describe as periods15_32_0_, periodscla0_.periods_type as periods16_32_0_, periodscla0_.pred_num as pred_nu17_32_0_, periodscla0_.school_id as school_18_32_0_, periodscla0_.school_name as school_19_32_0_, periodscla0_.st_name as st_name20_32_0_, periodscla0_.teacher_id as teacher21_32_0_, periodscla0_.teacher_wx_num as teacher22_32_0_, periodscla0_.update_code_num as update_23_32_0_, periodscla0_.update_code_type as update_24_32_0_, periodscla0_.update_time as update_25_32_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-03-05 14:12:27.614 TRACE 26387 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [144]
+Hibernate: select activityin0_.activity_id as activity1_7_, activityin0_.acti_msg_fixed as acti_msg2_7_, activityin0_.acti_msg_sms_record as acti_msg3_7_, activityin0_.acti_msg_wx_template_record as acti_msg4_7_, activityin0_.activity_name as activity5_7_, activityin0_.activity_type as activity6_7_, activityin0_.activity_url as activity7_7_, activityin0_.cash_condition as cash_con8_7_, activityin0_.conditions as conditio9_7_, activityin0_.create_by as create_10_7_, activityin0_.create_time as create_11_7_, activityin0_.goods_price as goods_p12_7_, activityin0_.if_renew as if_rene13_7_, activityin0_.if_return_cash as if_retu14_7_, activityin0_.package_id as package15_7_, activityin0_.package_name as package16_7_, activityin0_.package_type as package17_7_, activityin0_.personal_type as persona18_7_, activityin0_.prompt_info as prompt_19_7_, activityin0_.supple_id as supple_20_7_, activityin0_.unit as unit21_7_, activityin0_.update_by as update_22_7_, activityin0_.update_time as update_23_7_ from activity_info activityin0_ where activityin0_.activity_id=? limit ?
+2020-03-05 14:12:27.614 TRACE 26387 --- [nio-8789-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+Hibernate: select activityin0_.activity_id as activity1_7_0_, activityin0_.acti_msg_fixed as acti_msg2_7_0_, activityin0_.acti_msg_sms_record as acti_msg3_7_0_, activityin0_.acti_msg_wx_template_record as acti_msg4_7_0_, activityin0_.activity_name as activity5_7_0_, activityin0_.activity_type as activity6_7_0_, activityin0_.activity_url as activity7_7_0_, activityin0_.cash_condition as cash_con8_7_0_, activityin0_.conditions as conditio9_7_0_, activityin0_.create_by as create_10_7_0_, activityin0_.create_time as create_11_7_0_, activityin0_.goods_price as goods_p12_7_0_, activityin0_.if_renew as if_rene13_7_0_, activityin0_.if_return_cash as if_retu14_7_0_, activityin0_.package_id as package15_7_0_, activityin0_.package_name as package16_7_0_, activityin0_.package_type as package17_7_0_, activityin0_.personal_type as persona18_7_0_, activityin0_.prompt_info as prompt_19_7_0_, activityin0_.supple_id as supple_20_7_0_, activityin0_.unit as unit21_7_0_, activityin0_.update_by as update_22_7_0_, activityin0_.update_time as update_23_7_0_ from activity_info activityin0_ where activityin0_.activity_id=?
+2020-03-05 14:12:27.615 TRACE 26387 --- [nio-8789-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+Hibernate: select activityin0_.activity_id as activity1_7_0_, activityin0_.acti_msg_fixed as acti_msg2_7_0_, activityin0_.acti_msg_sms_record as acti_msg3_7_0_, activityin0_.acti_msg_wx_template_record as acti_msg4_7_0_, activityin0_.activity_name as activity5_7_0_, activityin0_.activity_type as activity6_7_0_, activityin0_.activity_url as activity7_7_0_, activityin0_.cash_condition as cash_con8_7_0_, activityin0_.conditions as conditio9_7_0_, activityin0_.create_by as create_10_7_0_, activityin0_.create_time as create_11_7_0_, activityin0_.goods_price as goods_p12_7_0_, activityin0_.if_renew as if_rene13_7_0_, activityin0_.if_return_cash as if_retu14_7_0_, activityin0_.package_id as package15_7_0_, activityin0_.package_name as package16_7_0_, activityin0_.package_type as package17_7_0_, activityin0_.personal_type as persona18_7_0_, activityin0_.prompt_info as prompt_19_7_0_, activityin0_.supple_id as supple_20_7_0_, activityin0_.unit as unit21_7_0_, activityin0_.update_by as update_22_7_0_, activityin0_.update_time as update_23_7_0_ from activity_info activityin0_ where activityin0_.activity_id=?
+2020-03-05 14:12:27.615 TRACE 26387 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [124]
+2020-03-05 14:12:27.616  INFO 26387 --- [nio-8789-exec-5] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=2,http_code=200,ip=121.69.42.54,putaoid=738674,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/class/judgePersonalTypeByClassId,uuid=ba747392-7eed-472f-ad3c-184aac0be1b7]
+2020-03-05 14:12:27.617  INFO 26387 --- [nio-8789-exec-9] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=4,http_code=200,ip=121.69.42.54,putaoid=738674,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/system/auxiliary,uuid=870fea27-36ed-4a14-af7c-71ad02f6e50c]
+Hibernate: select roundgroup0_.id as id1_38_, roundgroup0_.create_time as create_t2_38_, roundgroup0_.from_putao_id as from_put3_38_, roundgroup0_.nick_name as nick_nam4_38_, roundgroup0_.photo as photo5_38_, roundgroup0_.putao_id as putao_id6_38_, roundgroup0_.round_id as round_id7_38_, roundgroup0_.serial_no as serial_n8_38_ from round_group_user_rel roundgroup0_ where roundgroup0_.round_id=?
+2020-03-05 14:12:27.619 TRACE 26387 --- [nio-8789-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [26]
+Hibernate: select roundgroup0_.id as id1_38_, roundgroup0_.create_time as create_t2_38_, roundgroup0_.from_putao_id as from_put3_38_, roundgroup0_.nick_name as nick_nam4_38_, roundgroup0_.photo as photo5_38_, roundgroup0_.putao_id as putao_id6_38_, roundgroup0_.round_id as round_id7_38_, roundgroup0_.serial_no as serial_n8_38_ from round_group_user_rel roundgroup0_ where roundgroup0_.putao_id=? and roundgroup0_.round_id=? limit ?
+2020-03-05 14:12:27.620 TRACE 26387 --- [nio-8789-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [738674]
+2020-03-05 14:12:27.620 TRACE 26387 --- [nio-8789-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [26]
+2020-03-05 14:12:27.620  INFO 26387 --- [nio-8789-exec-7] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=9,http_code=200,ip=121.69.42.54,putaoid=738674,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/roundGroup/index,uuid=bbd8f1d9-bf0a-49ad-83b0-d92e16b27f10]
+2020-03-05 14:12:28.644  INFO 26387 --- [nio-8789-exec-2] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/system/teacherUrl?uuid=10.10.38.141&putaoid=738674&sign=3dd739d54ecc7d101f1efa27f18db0f4&ts=1583388748630&from=weixin&putaoId=738674&token=dfbb1a566e&source=815&sourceToken=tj+OI6WR&classId=144&tId=41&roundId=26&orderId=21739&
+Hibernate: select periodscla0_.class_id as class_id1_32_, periodscla0_.activity_id as activity2_32_, periodscla0_.activity_type as activity3_32_, periodscla0_.camp_id as camp_id4_32_, periodscla0_.class_code_url as class_co5_32_, periodscla0_.class_name as class_na6_32_, periodscla0_.class_status as class_st7_32_, periodscla0_.course_type as course_t8_32_, periodscla0_.course_type_details as course_t9_32_, periodscla0_.create_time as create_10_32_, periodscla0_.device as device11_32_, periodscla0_.grade as grade12_32_, periodscla0_.opening_date as opening13_32_, periodscla0_.periods as periods14_32_, periodscla0_.periods_describe as periods15_32_, periodscla0_.periods_type as periods16_32_, periodscla0_.pred_num as pred_nu17_32_, periodscla0_.school_id as school_18_32_, periodscla0_.school_name as school_19_32_, periodscla0_.st_name as st_name20_32_, periodscla0_.teacher_id as teacher21_32_, periodscla0_.teacher_wx_num as teacher22_32_, periodscla0_.update_code_num as update_23_32_, periodscla0_.update_code_type as update_24_32_, periodscla0_.update_time as update_25_32_ from periods_class_info periodscla0_ where periodscla0_.class_id=? limit ?
+2020-03-05 14:12:28.646 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [144]
+Hibernate: select activityca0_.id as id1_42_0_, activityca0_.activity_ids as activity2_42_0_, activityca0_.activity_type as activity3_42_0_, activityca0_.course_type as course_t4_42_0_, activityca0_.course_type_details as course_t5_42_0_, activityca0_.course_type_time as course_t6_42_0_, activityca0_.create_time as create_t7_42_0_, activityca0_.first_leads_end_time as first_le8_42_0_, activityca0_.first_leads_start_time as first_le9_42_0_, activityca0_.leads_type as leads_t10_42_0_, activityca0_.name as name11_42_0_, activityca0_.opening_date as opening12_42_0_, activityca0_.pred_num as pred_nu13_42_0_, activityca0_.second_leads_end_time as second_14_42_0_, activityca0_.second_leads_start_time as second_15_42_0_, activityca0_.second_opening_date as second_16_42_0_, activityca0_.update_code_cycle as update_17_42_0_, activityca0_.update_code_value as update_18_42_0_, activityca0_.update_periods_time as update_19_42_0_, activityca0_.update_time as update_20_42_0_ from t_activity_camp_info activityca0_ where activityca0_.id=?
+2020-03-05 14:12:28.647 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [257]
+Hibernate: select salereluse0_.id as id1_40_, salereluse0_.activity_id as activity2_40_, salereluse0_.back_teacher_name as back_tea3_40_, salereluse0_.camp_id as camp_id4_40_, salereluse0_.camp_type as camp_typ5_40_, salereluse0_.class_id as class_id6_40_, salereluse0_.class_name as class_na7_40_, salereluse0_.create_time as create_t8_40_, salereluse0_.grade as grade9_40_, salereluse0_.open_id as open_id10_40_, salereluse0_.opening_date as opening11_40_, salereluse0_.periods as periods12_40_, salereluse0_.periods_id as periods13_40_, salereluse0_.personal_type as persona14_40_, salereluse0_.putao_id as putao_i15_40_, salereluse0_.qr_code_type as qr_code16_40_, salereluse0_.sale_phone as sale_ph17_40_, salereluse0_.source as source18_40_, salereluse0_.teacher_id as teacher19_40_, salereluse0_.teacher_nickname as teacher20_40_, salereluse0_.unit as unit21_40_, salereluse0_.url as url22_40_ from sale_rel_user salereluse0_ where salereluse0_.putao_id=? and salereluse0_.qr_code_type=? limit ?
+2020-03-05 14:12:28.648 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [738674]
+2020-03-05 14:12:28.648 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [长期班]
+Hibernate: select salereluse0_.id as id1_40_, salereluse0_.activity_id as activity2_40_, salereluse0_.back_teacher_name as back_tea3_40_, salereluse0_.camp_id as camp_id4_40_, salereluse0_.camp_type as camp_typ5_40_, salereluse0_.class_id as class_id6_40_, salereluse0_.class_name as class_na7_40_, salereluse0_.create_time as create_t8_40_, salereluse0_.grade as grade9_40_, salereluse0_.open_id as open_id10_40_, salereluse0_.opening_date as opening11_40_, salereluse0_.periods as periods12_40_, salereluse0_.periods_id as periods13_40_, salereluse0_.personal_type as persona14_40_, salereluse0_.putao_id as putao_i15_40_, salereluse0_.qr_code_type as qr_code16_40_, salereluse0_.sale_phone as sale_ph17_40_, salereluse0_.source as source18_40_, salereluse0_.teacher_id as teacher19_40_, salereluse0_.teacher_nickname as teacher20_40_, salereluse0_.unit as unit21_40_, salereluse0_.url as url22_40_ from sale_rel_user salereluse0_ where salereluse0_.putao_id=? and salereluse0_.camp_id=? limit ?
+2020-03-05 14:12:28.648 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [738674]
+2020-03-05 14:12:28.648 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [257]
+Hibernate: select activityji0_.id as id1_8_, activityji0_.class_number as class_nu2_8_, activityji0_.create_time as create_t3_8_, activityji0_.grade as grade4_8_, activityji0_.learn_starting as learn_st5_8_, activityji0_.phone as phone6_8_, activityji0_.putao_id as putao_id7_8_, activityji0_.remark as remark8_8_, activityji0_.source as source9_8_, activityji0_.user_name as user_na10_8_ from activity_jinxiao_user activityji0_ where activityji0_.putao_id=? limit ?
+2020-03-05 14:12:28.649 TRACE 26387 --- [nio-8789-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [738674]
+2020-03-05 14:12:28.649  INFO 26387 --- [nio-8789-exec-2] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=5,http_code=200,ip=121.69.42.54,putaoid=738674,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/system/teacherUrl,uuid=4fc9f2b5-bebf-47b5-ac49-6537b29a8811]
+2020-03-05 14:12:36.863  INFO 26387 --- [nio-8789-exec-6] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/campInfo/startTime?uuid=10.10.38.141&putaoid=&sign=5a4d8a2de989b13947ded14cea3262e7&ts=1583388755847&from=weixin&putaoId=&token=&source=123&sourceToken=&classId=100&tId=&roundId=&
+Hibernate: select periodscla0_.class_id as class_id1_32_0_, periodscla0_.activity_id as activity2_32_0_, periodscla0_.activity_type as activity3_32_0_, periodscla0_.camp_id as camp_id4_32_0_, periodscla0_.class_code_url as class_co5_32_0_, periodscla0_.class_name as class_na6_32_0_, periodscla0_.class_status as class_st7_32_0_, periodscla0_.course_type as course_t8_32_0_, periodscla0_.course_type_details as course_t9_32_0_, periodscla0_.create_time as create_10_32_0_, periodscla0_.device as device11_32_0_, periodscla0_.grade as grade12_32_0_, periodscla0_.opening_date as opening13_32_0_, periodscla0_.periods as periods14_32_0_, periodscla0_.periods_describe as periods15_32_0_, periodscla0_.periods_type as periods16_32_0_, periodscla0_.pred_num as pred_nu17_32_0_, periodscla0_.school_id as school_18_32_0_, periodscla0_.school_name as school_19_32_0_, periodscla0_.st_name as st_name20_32_0_, periodscla0_.teacher_id as teacher21_32_0_, periodscla0_.teacher_wx_num as teacher22_32_0_, periodscla0_.update_code_num as update_23_32_0_, periodscla0_.update_code_type as update_24_32_0_, periodscla0_.update_time as update_25_32_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-03-05 14:12:36.864 TRACE 26387 --- [nio-8789-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [100]
+Hibernate: select activityca0_.id as id1_42_0_, activityca0_.activity_ids as activity2_42_0_, activityca0_.activity_type as activity3_42_0_, activityca0_.course_type as course_t4_42_0_, activityca0_.course_type_details as course_t5_42_0_, activityca0_.course_type_time as course_t6_42_0_, activityca0_.create_time as create_t7_42_0_, activityca0_.first_leads_end_time as first_le8_42_0_, activityca0_.first_leads_start_time as first_le9_42_0_, activityca0_.leads_type as leads_t10_42_0_, activityca0_.name as name11_42_0_, activityca0_.opening_date as opening12_42_0_, activityca0_.pred_num as pred_nu13_42_0_, activityca0_.second_leads_end_time as second_14_42_0_, activityca0_.second_leads_start_time as second_15_42_0_, activityca0_.second_opening_date as second_16_42_0_, activityca0_.update_code_cycle as update_17_42_0_, activityca0_.update_code_value as update_18_42_0_, activityca0_.update_periods_time as update_19_42_0_, activityca0_.update_time as update_20_42_0_ from t_activity_camp_info activityca0_ where activityca0_.id=?
+2020-03-05 14:12:36.865 TRACE 26387 --- [nio-8789-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [220]
+2020-03-05 14:12:36.866  INFO 26387 --- [nio-8789-exec-6] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=2,http_code=200,ip=111.199.190.186,putaoid=,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/campInfo/startTime,uuid=6bbd765c-f7b9-40bf-b628-79a3c5963a4e]
+2020-03-05 14:12:49.815  INFO 26387 --- [io-8789-exec-10] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/campInfo/startTime?uuid=10.10.38.141&putaoid=&sign=541b1787652482e3802ecf4e211c973d&ts=1583388768799&from=weixin&putaoId=&token=&source=123&sourceToken=&classId=100&tId=&roundId=&
+Hibernate: select periodscla0_.class_id as class_id1_32_0_, periodscla0_.activity_id as activity2_32_0_, periodscla0_.activity_type as activity3_32_0_, periodscla0_.camp_id as camp_id4_32_0_, periodscla0_.class_code_url as class_co5_32_0_, periodscla0_.class_name as class_na6_32_0_, periodscla0_.class_status as class_st7_32_0_, periodscla0_.course_type as course_t8_32_0_, periodscla0_.course_type_details as course_t9_32_0_, periodscla0_.create_time as create_10_32_0_, periodscla0_.device as device11_32_0_, periodscla0_.grade as grade12_32_0_, periodscla0_.opening_date as opening13_32_0_, periodscla0_.periods as periods14_32_0_, periodscla0_.periods_describe as periods15_32_0_, periodscla0_.periods_type as periods16_32_0_, periodscla0_.pred_num as pred_nu17_32_0_, periodscla0_.school_id as school_18_32_0_, periodscla0_.school_name as school_19_32_0_, periodscla0_.st_name as st_name20_32_0_, periodscla0_.teacher_id as teacher21_32_0_, periodscla0_.teacher_wx_num as teacher22_32_0_, periodscla0_.update_code_num as update_23_32_0_, periodscla0_.update_code_type as update_24_32_0_, periodscla0_.update_time as update_25_32_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-03-05 14:12:49.816 TRACE 26387 --- [io-8789-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [100]
+Hibernate: select activityca0_.id as id1_42_0_, activityca0_.activity_ids as activity2_42_0_, activityca0_.activity_type as activity3_42_0_, activityca0_.course_type as course_t4_42_0_, activityca0_.course_type_details as course_t5_42_0_, activityca0_.course_type_time as course_t6_42_0_, activityca0_.create_time as create_t7_42_0_, activityca0_.first_leads_end_time as first_le8_42_0_, activityca0_.first_leads_start_time as first_le9_42_0_, activityca0_.leads_type as leads_t10_42_0_, activityca0_.name as name11_42_0_, activityca0_.opening_date as opening12_42_0_, activityca0_.pred_num as pred_nu13_42_0_, activityca0_.second_leads_end_time as second_14_42_0_, activityca0_.second_leads_start_time as second_15_42_0_, activityca0_.second_opening_date as second_16_42_0_, activityca0_.update_code_cycle as update_17_42_0_, activityca0_.update_code_value as update_18_42_0_, activityca0_.update_periods_time as update_19_42_0_, activityca0_.update_time as update_20_42_0_ from t_activity_camp_info activityca0_ where activityca0_.id=?
+2020-03-05 14:12:49.816 TRACE 26387 --- [io-8789-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [220]
+2020-03-05 14:12:49.817  INFO 26387 --- [io-8789-exec-10] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=2,http_code=200,ip=111.199.190.186,putaoid=,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/campInfo/startTime,uuid=20953333-de73-478d-a781-0f368424e3e8]
+2020-03-05 14:12:57.444  INFO 26387 --- [nio-8789-exec-4] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/campInfo/startTime?uuid=10.10.38.141&putaoid=&sign=12984a097a9455d77f9b51a6db855b35&ts=1583388776420&from=weixin&putaoId=&token=&source=123&sourceToken=&classId=100&tId=&roundId=&
+Hibernate: select periodscla0_.class_id as class_id1_32_0_, periodscla0_.activity_id as activity2_32_0_, periodscla0_.activity_type as activity3_32_0_, periodscla0_.camp_id as camp_id4_32_0_, periodscla0_.class_code_url as class_co5_32_0_, periodscla0_.class_name as class_na6_32_0_, periodscla0_.class_status as class_st7_32_0_, periodscla0_.course_type as course_t8_32_0_, periodscla0_.course_type_details as course_t9_32_0_, periodscla0_.create_time as create_10_32_0_, periodscla0_.device as device11_32_0_, periodscla0_.grade as grade12_32_0_, periodscla0_.opening_date as opening13_32_0_, periodscla0_.periods as periods14_32_0_, periodscla0_.periods_describe as periods15_32_0_, periodscla0_.periods_type as periods16_32_0_, periodscla0_.pred_num as pred_nu17_32_0_, periodscla0_.school_id as school_18_32_0_, periodscla0_.school_name as school_19_32_0_, periodscla0_.st_name as st_name20_32_0_, periodscla0_.teacher_id as teacher21_32_0_, periodscla0_.teacher_wx_num as teacher22_32_0_, periodscla0_.update_code_num as update_23_32_0_, periodscla0_.update_code_type as update_24_32_0_, periodscla0_.update_time as update_25_32_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-03-05 14:12:57.445 TRACE 26387 --- [nio-8789-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [100]
+Hibernate: select activityca0_.id as id1_42_0_, activityca0_.activity_ids as activity2_42_0_, activityca0_.activity_type as activity3_42_0_, activityca0_.course_type as course_t4_42_0_, activityca0_.course_type_details as course_t5_42_0_, activityca0_.course_type_time as course_t6_42_0_, activityca0_.create_time as create_t7_42_0_, activityca0_.first_leads_end_time as first_le8_42_0_, activityca0_.first_leads_start_time as first_le9_42_0_, activityca0_.leads_type as leads_t10_42_0_, activityca0_.name as name11_42_0_, activityca0_.opening_date as opening12_42_0_, activityca0_.pred_num as pred_nu13_42_0_, activityca0_.second_leads_end_time as second_14_42_0_, activityca0_.second_leads_start_time as second_15_42_0_, activityca0_.second_opening_date as second_16_42_0_, activityca0_.update_code_cycle as update_17_42_0_, activityca0_.update_code_value as update_18_42_0_, activityca0_.update_periods_time as update_19_42_0_, activityca0_.update_time as update_20_42_0_ from t_activity_camp_info activityca0_ where activityca0_.id=?
+2020-03-05 14:12:57.446 TRACE 26387 --- [nio-8789-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [220]
+2020-03-05 14:12:57.447  INFO 26387 --- [nio-8789-exec-4] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_4_centos,cost=2,http_code=200,ip=111.199.190.186,putaoid=,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/campInfo/startTime,uuid=5f8f46fb-d59d-4a08-aeef-90666328d991]
+2020-03-05 14:13:00.024  INFO 26387 --- [nio-8789-exec-1] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/roundGroup/jobForRoundGroup?
+Hibernate: select * from t_activity_round_info Order By round_id desc limit 1
+2020-03-05 14:13:00.026  INFO 26387 --- [nio-8789-exec-1] c.p.a.c.group.RoundGroupBuyController    : Thu Mar 05 14:13:00 CST 202070.8date, thirtyMinutes, endTime
+
+
+.
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500005524', `putao_id` = 737595, `source` = 2048, `user_name` = '端木琉璃', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 4;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500005525', `putao_id` = 73882, `source` = 2048, `user_name` = '木木木府剧目', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 5;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500005527', `putao_id` = 45625, `source` = 2048, `user_name` = '哦公民头某', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 7;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 4, `phone` = '14500005528', `putao_id` = 45619, `source` = 2048, `user_name` = '回来咯饿了榴莲惹她抗', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 8;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 5, `phone` = '14500005529', `putao_id` = 45591, `source` = 2048, `user_name` = '您工具木木木莫咯磨口', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 9;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 4, `phone` = '14500005530', `putao_id` = 45560, `source` = 2048, `user_name` = '米诺脱了', `class_number` = NULL, `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 10;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '17621664327', `putao_id` = 45543, `source` = 2048, `user_name` = '饼干', `class_number` = NULL, `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 11;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500000743', `putao_id` = 737430, `source` = 2048, `user_name` = '测试', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 13;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004636', `putao_id` = 737488, `source` = 540, `user_name` = '昊', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 15;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '18712782695', `putao_id` = 21473, `source` = 222, `user_name` = '李雷', `class_number` = NULL, `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 16;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500006088', `putao_id` = 737517, `source` = NULL, `user_name` = '辣鸡', `class_number` = '5555', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 17;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500003345', `putao_id` = 737575, `source` = NULL, `user_name` = '特别', `class_number` = '2', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 18;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500003346', `putao_id` = 737577, `source` = NULL, `user_name` = '辣鸡', `class_number` = '2', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 19;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500003347', `putao_id` = 737579, `source` = NULL, `user_name` = '把我', `class_number` = '55', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 20;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500003348', `putao_id` = 737580, `source` = NULL, `user_name` = '罢了', `class_number` = '2', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 21;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500000820', `putao_id` = 737629, `source` = 1, `user_name` = '我们', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 22;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000821', `putao_id` = 737630, `source` = 1, `user_name` = '你也', `class_number` = '六一', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 23;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14511001020', `putao_id` = 737631, `source` = 102, `user_name` = '阿里了', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 24;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14511001021', `putao_id` = 737632, `source` = 102, `user_name` = '辣鸡', `class_number` = '空军建军节', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 25;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14511001022', `putao_id` = 737633, `source` = 102, `user_name` = '太可怜了', `class_number` = '你的', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 26;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500000826', `putao_id` = 737634, `source` = 1, `user_name` = '沃尔玛', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 27;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500000827', `putao_id` = 737635, `source` = 1, `user_name` = '于朦胧', `class_number` = '我看到', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 28;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 4, `phone` = '14500043965', `putao_id` = 737639, `source` = 22, `user_name` = '患得患失', `class_number` = '哈哈哈', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 29;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '17812768861', `putao_id` = 737653, `source` = 1, `user_name` = '测试', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 30;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500004828', `putao_id` = 737660, `source` = 1, `user_name` = '擦擦汗', `class_number` = '啦啦啦', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 31;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004827', `putao_id` = 737661, `source` = 1, `user_name` = '明宫', `class_number` = '1345', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 32;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004826', `putao_id` = 737662, `source` = 1, `user_name` = '我现在', `class_number` = '你', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 33;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004825', `putao_id` = 737663, `source` = 1, `user_name` = '我现在', `class_number` = '我现在', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 34;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004824', `putao_id` = 737664, `source` = 1, `user_name` = '哦莫', `class_number` = '好好好', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 35;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500004823', `putao_id` = 737665, `source` = 1, `user_name` = '我现在', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 36;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500004822', `putao_id` = 737666, `source` = 1, `user_name` = '我以为', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 37;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500004821', `putao_id` = 737667, `source` = 1, `user_name` = '同你', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 38;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500004820', `putao_id` = 737668, `source` = 1, `user_name` = '我们', `class_number` = '想我', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 39;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 6, `phone` = '14500004819', `putao_id` = 737669, `source` = 1, `user_name` = '屯昌图书馆', `class_number` = '896', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 40;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 6, `phone` = '14500004818', `putao_id` = 737677, `source` = 650, `user_name` = '酒徒', `class_number` = '踢我', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 41;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '14500004817', `putao_id` = 737678, `source` = 1, `user_name` = '我说', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 42;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 0, `phone` = '18610133303', `putao_id` = 737682, `source` = 1, `user_name` = '体验一', `class_number` = '幼儿园', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 43;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000836', `putao_id` = 737716, `source` = 298, `user_name` = '许嵩', `class_number` = '睡觉呢', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 44;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000837', `putao_id` = 737722, `source` = 298, `user_name` = '房东', `class_number` = '电话回访哈哈', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 45;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000838', `putao_id` = 737723, `source` = 298, `user_name` = '刚刚', `class_number` = '点点', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 46;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000839', `putao_id` = 737725, `source` = 298, `user_name` = '难道你', `class_number` = '都不', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 47;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000840', `putao_id` = 737726, `source` = 298, `user_name` = '官方版', `class_number` = '刚刚', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 48;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000841', `putao_id` = 737728, `source` = 298, `user_name` = '规划', `class_number` = '如果', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 49;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500000842', `putao_id` = 737729, `source` = 298, `user_name` = '汪苏泷', `class_number` = '送你', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 50;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000843', `putao_id` = 737732, `source` = 6004, `user_name` = '那些年', `class_number` = '哈哈', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 51;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500000844', `putao_id` = 737733, `source` = 6004, `user_name` = '谷歌', `class_number` = '还好吧', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 52;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14511001035', `putao_id` = 737734, `source` = 6005, `user_name` = '太久', `class_number` = '33', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 53;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500000845', `putao_id` = 737737, `source` = 6004, `user_name` = '会打电话点点', `class_number` = '女婿', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 54;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500000846', `putao_id` = 737740, `source` = 6004, `user_name` = '哈哈', `class_number` = '帮您', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 55;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 5, `phone` = '14500004816', `putao_id` = 737747, `source` = 1, `user_name` = '接口', `class_number` = '12', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 56;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 5, `phone` = '14500004815', `putao_id` = 737750, `source` = 1, `user_name` = '具体', `class_number` = '10', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 57;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004814', `putao_id` = 737751, `source` = 1, `user_name` = '新荣', `class_number` = '8', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 58;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004812', `putao_id` = 737763, `source` = 1, `user_name` = '新荣', `class_number` = '9班', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 60;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004811', `putao_id` = 737764, `source` = 1, `user_name` = '呃呃呃', `class_number` = '4班', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 61;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500004810', `putao_id` = 737765, `source` = 1, `user_name` = '我录音', `class_number` = '7班', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 62;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500000858', `putao_id` = 738016, `source` = 774, `user_name` = '有没有', `class_number` = '我', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 63;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500006308', `putao_id` = 738017, `source` = 791, `user_name` = '七九一', `class_number` = '三', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 64;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 3, `phone` = '14500006309', `putao_id` = 738018, `source` = 791, `user_name` = '七啊这', `class_number` = '四', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 65;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 6, `phone` = '14500006310', `putao_id` = 738019, `source` = 791, `user_name` = '德行', `class_number` = '四', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 66;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 1, `phone` = '14500000859', `putao_id` = 738020, `source` = 792, `user_name` = '我玩', `class_number` = '我玩', `learn_starting` = 1, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 67;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500006313', `putao_id` = 738025, `source` = 776, `user_name` = '西虹市', `class_number` = '四', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 68;
+UPDATE `miniprogram`.`activity_jinxiao_user` SET `grade` = 2, `phone` = '14500006314', `putao_id` = 738026, `source` = 776, `user_name` = '有红包', `class_number` = '四', `learn_starting` = 3, `create_time` = '2010-10-10 00:00:00', `remark` = NULL WHERE `id` = 69;
+
+
+
+
+
+ [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/pay/aliPay?uuid=10.10.38.141&putaoid=738691&sign=47f75279c40c01d31aa6f503a6bfac93&ts=1583476572805&from=weixin&putaoId=738691&token=5beb5c7943&source=814&sourceToken=HGsnJt3N&classId=147&roundId=16&wxopenId=oBGlE0SdIOdz-JAliXI3OKHS77zA&phone=14500006718&goodsId=211&userPhone=14500006718&returnUrl=https://www.putaoabc.com/onlinepages/op_activity/combuy_success&
+2020-03-06 14:36:12.973  INFO 5617 --- [nio-8789-exec-5] c.p.a.controller.ActivityPayController   : userByPutaoId_com.putaoabc.usercenter.api.dto.CourseUserDTO@30743841
+Hibernate: select periodscla0_.class_id as class_id1_32_0_, periodscla0_.activity_id as activity2_32_0_, periodscla0_.activity_type as activity3_32_0_, periodscla0_.camp_id as camp_id4_32_0_, periodscla0_.class_code_url as class_co5_32_0_, periodscla0_.class_name as class_na6_32_0_, periodscla0_.class_status as class_st7_32_0_, periodscla0_.course_type as course_t8_32_0_, periodscla0_.course_type_details as course_t9_32_0_, periodscla0_.create_time as create_10_32_0_, periodscla0_.device as device11_32_0_, periodscla0_.grade as grade12_32_0_, periodscla0_.opening_date as opening13_32_0_, periodscla0_.periods as periods14_32_0_, periodscla0_.periods_describe as periods15_32_0_, periodscla0_.periods_type as periods16_32_0_, periodscla0_.pred_num as pred_nu17_32_0_, periodscla0_.school_id as school_18_32_0_, periodscla0_.school_name as school_19_32_0_, periodscla0_.st_name as st_name20_32_0_, periodscla0_.teacher_id as teacher21_32_0_, periodscla0_.teacher_wx_num as teacher22_32_0_, periodscla0_.update_code_num as update_23_32_0_, periodscla0_.update_code_type as update_24_32_0_, periodscla0_.update_time as update_25_32_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-03-06 14:36:12.982 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [147]
+Hibernate: select activityin0_.activity_id as activity1_7_0_, activityin0_.acti_msg_fixed as acti_msg2_7_0_, activityin0_.acti_msg_sms_record as acti_msg3_7_0_, activityin0_.acti_msg_wx_template_record as acti_msg4_7_0_, activityin0_.activity_name as activity5_7_0_, activityin0_.activity_type as activity6_7_0_, activityin0_.activity_url as activity7_7_0_, activityin0_.cash_condition as cash_con8_7_0_, activityin0_.conditions as conditio9_7_0_, activityin0_.create_by as create_10_7_0_, activityin0_.create_time as create_11_7_0_, activityin0_.goods_price as goods_p12_7_0_, activityin0_.if_renew as if_rene13_7_0_, activityin0_.if_return_cash as if_retu14_7_0_, activityin0_.package_id as package15_7_0_, activityin0_.package_name as package16_7_0_, activityin0_.package_type as package17_7_0_, activityin0_.personal_type as persona18_7_0_, activityin0_.prompt_info as prompt_19_7_0_, activityin0_.supple_id as supple_20_7_0_, activityin0_.unit as unit21_7_0_, activityin0_.update_by as update_22_7_0_, activityin0_.update_time as update_23_7_0_ from activity_info activityin0_ where activityin0_.activity_id=?
+2020-03-06 14:36:12.984 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [123]
+Hibernate: insert into activtiy_center_order (activity_id, activity_type, class_id, dis_count_code, from_putao_id, goods_id, group_id, open_id, order_id, pay_status, price, putao_id, round_id, source, unit, unit_adjustment_times, update_time, user_phone, zt_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020-03-06 14:36:13.022 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [123]
+2020-03-06 14:36:13.022 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [147]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [211]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [VARCHAR] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [INTEGER] - [21772]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [12] as [INTEGER] - [738691]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [13] as [INTEGER] - [16]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [14] as [INTEGER] - [814]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [15] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [16] as [INTEGER] - [null]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [17] as [TIMESTAMP] - [Fri Mar 06 14:36:13 CST 2020]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [18] as [VARCHAR] - [14500006718]
+2020-03-06 14:36:13.023 TRACE 5617 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [19] as [VARCHAR] - [null]
+2020-03-06 14:36:13.034  INFO 5617 --- [nio-8789-exec-5] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=VM_0_15_centos,cost=76,http_code=200,ip=121.69.42.54,putaoid=738691,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/pay/aliPay,uuid=674fe624-f380-465f-8f01-8ca644977668]
+
+
+
+/course_v2/pay/ali/wapPay?goodsId=211&userPhone=14500006715&accountKey=ali_jh&orderDispenseId=1&price=2&orderSource=814&orderDetail=60+60=120课时套餐&returnUrl=https://www.putaoabc.com/onlinepages/op_activity/combuy_success

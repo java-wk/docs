@@ -1,0 +1,30 @@
+{
+  "conditions": {
+    "condition_forbid": [
+      [
+        {
+          "leftoperator": "ifForbidOther",
+          "predicate": "eq",
+          "rightoperator": 0
+        }
+      ]
+    ],
+    "condition_course": [
+      [
+        {
+          "leftoperator": "mainCourse",
+          "predicate": "ge",
+          "rightoperator": 0
+        },
+        {
+          "leftoperator": "mainCourse",
+          "predicate": "lt",
+          "rightoperator": 24
+        }
+      ]
+    ],
+    "condition_source": [
+      []
+    ]
+  }
+}

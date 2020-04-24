@@ -1,0 +1,80 @@
+[URL]/course_v2/activityCenter/pay/wxPay[PARAMS]uuid:10.10.38.141|;putaoid:232995|;sign:77a5a3c452855f3fb96fcefef76ca1a8|;ts:1586748781218|;from:weixin|;putaoId:232995|;token:f0ca659d56|;source:918|;sourceToken:|;classId:95|;tId:|;userPhone:18600315866|;goodsId:183|;openId:|;ip:10.10.38.141|;accountKey:wx_ptyyfwh|;unit:16|;wapUrl:https%3A%2F%2Fwww.putaoabc.com%2Fonlinepages%2Fop_activity%2Fputin_buyinfo|;wapName:%E8%91%A1%E8%90%84%E8%8B%B1%E8%AF%AD|;
+2020-04-13 11:33:01.483  INFO 10419 --- [nio-8789-exec-5] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/pay/wxPay?uuid=10.10.38.141&putaoid=232995&sign=77a5a3c452855f3fb96fcefef76ca1a8&ts=1586748781218&from=weixin&putaoId=232995&token=f0ca659d56&source=918&sourceToken=&classId=95&tId=&userPhone=18600315866&goodsId=183&openId=&ip=10.10.38.141&accountKey=wx_ptyyfwh&unit=16&wapUrl=https%3A%2F%2Fwww.putaoabc.com%2Fonlinepages%2Fop_activity%2Fputin_buyinfo&wapName=%E8%91%A1%E8%90%84%E8%8B%B1%E8%AF%AD&
+2020-04-13 11:33:01.487  INFO 10419 --- [nio-8789-exec-5] c.p.a.controller.ActivityPayController   : userByPutaoId_com.putaoabc.usercenter.api.dto.CourseUserDTO@661e562f
+Hibernate: select periodscla0_.class_id as class_id1_36_0_, periodscla0_.activity_id as activity2_36_0_, periodscla0_.activity_type as activity3_36_0_, periodscla0_.camp_id as camp_id4_36_0_, periodscla0_.class_code_url as class_co5_36_0_, periodscla0_.class_name as class_na6_36_0_, periodscla0_.class_status as class_st7_36_0_, periodscla0_.course_type as course_t8_36_0_, periodscla0_.course_type_details as course_t9_36_0_, periodscla0_.create_time as create_10_36_0_, periodscla0_.device as device11_36_0_, periodscla0_.grade as grade12_36_0_, periodscla0_.opening_date as opening13_36_0_, periodscla0_.periods as periods14_36_0_, periodscla0_.periods_describe as periods15_36_0_, periodscla0_.periods_type as periods16_36_0_, periodscla0_.pred_num as pred_nu17_36_0_, periodscla0_.school_id as school_18_36_0_, periodscla0_.school_name as school_19_36_0_, periodscla0_.st_name as st_name20_36_0_, periodscla0_.teacher_id as teacher21_36_0_, periodscla0_.teacher_wx_num as teacher22_36_0_, periodscla0_.update_code_num as update_23_36_0_, periodscla0_.update_code_type as update_24_36_0_, periodscla0_.update_time as update_25_36_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-04-13 11:33:01.487 TRACE 10419 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [95]
+Hibernate: select activityin0_.activity_id as activity1_11_0_, activityin0_.acti_msg_fixed as acti_msg2_11_0_, activityin0_.acti_msg_sms_record as acti_msg3_11_0_, activityin0_.acti_msg_sms_record_rb as acti_msg4_11_0_, activityin0_.acti_msg_wx_template_record as acti_msg5_11_0_, activityin0_.activity_name as activity6_11_0_, activityin0_.activity_type as activity7_11_0_, activityin0_.activity_url as activity8_11_0_, activityin0_.cash_condition as cash_con9_11_0_, activityin0_.conditions as conditi10_11_0_, activityin0_.create_by as create_11_11_0_, activityin0_.create_time as create_12_11_0_, activityin0_.delay_minutes as delay_m13_11_0_, activityin0_.goods_price as goods_p14_11_0_, activityin0_.if_renew as if_rene15_11_0_, activityin0_.if_return_cash as if_retu16_11_0_, activityin0_.package_id as package17_11_0_, activityin0_.package_name as package18_11_0_, activityin0_.package_type as package19_11_0_, activityin0_.personal_type as persona20_11_0_, activityin0_.prompt_info as prompt_21_11_0_, activityin0_.supple_id as supple_22_11_0_, activityin0_.teach_tool_goods_id as teach_t23_11_0_, activityin0_.unit as unit24_11_0_, activityin0_.update_by as update_25_11_0_, activityin0_.update_time as update_26_11_0_ from activity_info activityin0_ where activityin0_.activity_id=?
+2020-04-13 11:33:01.488 TRACE 10419 --- [nio-8789-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [38]
+2020-04-13 11:33:01.718  INFO 10419 --- [nio-8789-exec-5] c.p.a.controller.ActivityPayController   : orderResult{
+        "package":"Sign=WXPay",
+        "orderId":96369,
+        "sign":"8912526BF35332AB1643961717512E74",
+        "noncestr":"IVVvSLWu0wBJId9174KP1G78wHiC3nzb",
+        "appid":"wx3ac95cbd0df1881d",
+        "partnerid":"1510569371",
+        "prepayid":"wx13113301687563e7b54b19fd1866970500",
+        "mwebUrl":"https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb?prepay_id=wx13113301687563e7b54b19fd1866970500&package=870739769",
+        "timestamp":"1586748781"
+}
+2020-04-13 11:33:01.734  INFO 10419 --- [nio-8789-exec-5] c.p.a.controller.ActivityPayController   : aco{
+        "activityId":38,
+        "classId":95,
+        "goodsId":183,
+        "keyString":"ztId,userPhone,goodsId,goodsName,price,count,createTime,orderId",
+        "openId":"",
+        "orderId":96369,
+        "price":990,
+        "putaoId":232995,
+        "source":918,
+        "unit":16,
+        "userPhone":"18600315866",
+        "valueString":"null,18600315866,183,体验课（4课时）,990,1,null,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020-04-18 20:10:04.969  INFO 23597 --- [nio-8789-exec-3] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/pay/aliPay?uuid=10.10.38.141&putaoid=234639&sign=fdb616d695679f26cd22eedb115ffae2&ts=1587211804987&from=weixin&putaoId=234639&token=2f116b243c&source=1664&classId=205&tId=262&wxopenId=oBGlE0d8VfiV6g4tLME30sKrgtfQ&phone=18641105360&goodsId=274&userPhone=18641105360&returnUrl=https://www.putaoabc.com/onlinepages/op_activity/zerolearn_success&
+2020-04-18 20:10:04.973  INFO 23597 --- [nio-8789-exec-3] c.p.a.controller.ActivityPayController   : userByPutaoId_com.putaoabc.usercenter.api.dto.CourseUserDTO@6721d0f8
+Hibernate: select periodscla0_.class_id as class_id1_36_0_, periodscla0_.activity_id as activity2_36_0_, periodscla0_.activity_type as activity3_36_0_, periodscla0_.camp_id as camp_id4_36_0_, periodscla0_.class_code_url as class_co5_36_0_, periodscla0_.class_name as class_na6_36_0_, periodscla0_.class_status as class_st7_36_0_, periodscla0_.course_type as course_t8_36_0_, periodscla0_.course_type_details as course_t9_36_0_, periodscla0_.create_time as create_10_36_0_, periodscla0_.device as device11_36_0_, periodscla0_.grade as grade12_36_0_, periodscla0_.opening_date as opening13_36_0_, periodscla0_.periods as periods14_36_0_, periodscla0_.periods_describe as periods15_36_0_, periodscla0_.periods_type as periods16_36_0_, periodscla0_.pred_num as pred_nu17_36_0_, periodscla0_.school_id as school_18_36_0_, periodscla0_.school_name as school_19_36_0_, periodscla0_.st_name as st_name20_36_0_, periodscla0_.teacher_id as teacher21_36_0_, periodscla0_.teacher_wx_num as teacher22_36_0_, periodscla0_.update_code_num as update_23_36_0_, periodscla0_.update_code_type as update_24_36_0_, periodscla0_.update_time as update_25_36_0_ from periods_class_info periodscla0_ where periodscla0_.class_id=?
+2020-04-18 20:10:04.978 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [205]
+Hibernate: select activityin0_.activity_id as activity1_11_0_, activityin0_.acti_msg_fixed as acti_msg2_11_0_, activityin0_.acti_msg_sms_record as acti_msg3_11_0_, activityin0_.acti_msg_sms_record_rb as acti_msg4_11_0_, activityin0_.acti_msg_wx_template_record as acti_msg5_11_0_, activityin0_.activity_name as activity6_11_0_, activityin0_.activity_type as activity7_11_0_, activityin0_.activity_url as activity8_11_0_, activityin0_.cash_condition as cash_con9_11_0_, activityin0_.conditions as conditi10_11_0_, activityin0_.create_by as create_11_11_0_, activityin0_.create_time as create_12_11_0_, activityin0_.delay_minutes as delay_m13_11_0_, activityin0_.goods_price as goods_p14_11_0_, activityin0_.if_renew as if_rene15_11_0_, activityin0_.if_return_cash as if_retu16_11_0_, activityin0_.package_id as package17_11_0_, activityin0_.package_name as package18_11_0_, activityin0_.package_type as package19_11_0_, activityin0_.personal_type as persona20_11_0_, activityin0_.prompt_info as prompt_21_11_0_, activityin0_.supple_id as supple_22_11_0_, activityin0_.teach_tool_goods_id as teach_t23_11_0_, activityin0_.unit as unit24_11_0_, activityin0_.update_by as update_25_11_0_, activityin0_.update_time as update_26_11_0_ from activity_info activityin0_ where activityin0_.activity_id=?
+2020-04-18 20:10:04.981 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [99]
+Hibernate: insert into activtiy_center_order (acti_tag, activity_id, activity_type, class_id, dis_count_code, from_putao_id, goods_id, group_id, open_id, order_id, pay_status, price, putao_id, round_id, source, unit, unit_adjustment_times, update_time, user_phone, zt_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [99]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [205]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [INTEGER] - [274]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [9] as [VARCHAR] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [10] as [INTEGER] - [101055]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [11] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [12] as [INTEGER] - [100000]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [13] as [INTEGER] - [234639]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [14] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [15] as [INTEGER] - [1664]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [16] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [17] as [INTEGER] - [null]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [18] as [TIMESTAMP] - [Sat Apr 18 20:10:05 CST 2020]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [19] as [VARCHAR] - [18641105360]
+2020-04-18 20:10:05.015 TRACE 23597 --- [nio-8789-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [20] as [VARCHAR] - [null]
+2020-04-18 20:10:05.019  INFO 23597 --- [nio-8789-exec-3] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=localhost.localdomain,cost=49,http_code=200,ip=112.42.66.156,putaoid=234639,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/pay/aliPay,uuid=a1b0f2a1-7b7c-4644-9d9f-3a35ed1f46d1]
+2020-04-18 20:10:05.284  INFO 23597 --- [io-8789-exec-10] c.p.a.interceptor.CostInterceptor        : [URL]/course_v2/activityCenter/zeroLearn/checkZeroLearnAndTime[PARAMS]putaoid:186087|;
+2020-04-18 20:10:05.284  INFO 23597 --- [io-8789-exec-10] c.p.a.interceptor.CostInterceptor        : [URL]: dev.putaoabc.net.cn/course_v2/activityCenter/zeroLearn/checkZeroLearnAndTime?putaoid=186087&
+2020-04-18 20:10:05.288  INFO 23597 --- [io-8789-exec-10] c.p.a.interceptor.CostInterceptor        : [Putao-Observer,hostName=localhost.localdomain,cost=3,http_code=200,ip=null,putaoid=186087,serviceName=activities-common-service:8789,uri=/course_v2/activityCenter/zeroLearn/checkZeroLearnAndTime,uuid=null]
+2020-04-18 20:10:05.394  INFO 23597 --- [nio-8789-exec-4] c.p.a.interceptor.CostInterceptor        : [URL]/course_v2/activityCenter/price/getGoodsListByClassId[PARAMS]uuid:10.10.38.141|;putaoid:|;sign:01f9f74684bc5a164d5c516327b246ea|;ts:1587211805282|;from:weixin|;putaoId:|;token:|;source:1543|;sourceToken:|;classId:187|;tId:|;
